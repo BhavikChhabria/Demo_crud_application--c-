@@ -1,0 +1,813 @@
+2025-03-19 09:33:33.073 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 09:33:33.203 +05:30 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5215: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-03-19 09:33:36.559 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 09:33:36.637 +05:30 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5215: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-03-19 09:34:01.638 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 09:34:01.722 +05:30 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5215: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-03-19 09:34:31.150 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 09:34:31.236 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 09:34:31.240 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 09:34:31.242 +05:30 [INF] Hosting environment: Development
+2025-03-19 09:34:31.243 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 09:34:54.243 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.html - null null
+2025-03-19 09:34:54.305 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.html from ::1
+2025-03-19 09:34:54.758 +05:30 [INF] ✅ Response Status: 200, Time Taken: 454 ms
+2025-03-19 09:34:54.771 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.html - 200 null text/html;charset=utf-8 533.1768ms
+2025-03-19 09:34:54.807 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.js - null null
+2025-03-19 09:34:54.816 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.js from ::1
+2025-03-19 09:34:54.824 +05:30 [INF] ✅ Response Status: 200, Time Taken: 8 ms
+2025-03-19 09:34:54.826 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.js - 200 null application/javascript;charset=utf-8 19.934ms
+2025-03-19 09:34:54.880 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - null null
+2025-03-19 09:34:54.888 +05:30 [INF] ➡️ Incoming Request: GET /swagger/v1/swagger.json from ::1
+2025-03-19 09:34:55.232 +05:30 [INF] ✅ Response Status: 200, Time Taken: 343 ms
+2025-03-19 09:34:55.238 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 357.9848ms
+2025-03-19 09:35:09.922 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-19 09:35:09.930 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+2025-03-19 09:35:09.945 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-19 09:35:09.957 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-19 09:35:09.961 +05:30 [INF] ✅ Response Status: 401, Time Taken: 30 ms
+2025-03-19 09:35:09.966 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 401 0 null 44.5665ms
+2025-03-19 09:35:40.532 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/register - application/json-patch+json 146
+2025-03-19 09:35:40.548 +05:30 [INF] CORS policy execution successful.
+2025-03-19 09:35:40.554 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/register from ::1
+2025-03-19 09:35:40.560 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-19 09:35:40.623 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiddlewareDemo.Models.RegisterUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:35:43.989 +05:30 [INF] Executed DbCommand (88ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Users` AS `u`
+    WHERE `u`.`Email` = @__userModel_Email_0)
+2025-03-19 09:35:45.359 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`Email`, `FirstName`, `LastName`, `LoginCount`, `PasswordHash`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2025-03-19 09:35:45.439 +05:30 [INF] New user registered: {"Id":14,"FirstName":"Bhavin","LastName":"Patel","Email":"Bhavin@example.com","LoginCount":0,"$type":"UserDTO"}
+2025-03-19 09:35:45.456 +05:30 [INF] User registered: MiddlewareDemo.Models.UserDTO
+2025-03-19 09:35:45.478 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-19 09:35:45.552 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Register (middleware_demo) in 4915.8774ms
+2025-03-19 09:35:45.557 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-19 09:35:45.565 +05:30 [INF] ✅ Response Status: 200, Time Taken: 5010 ms
+2025-03-19 09:35:45.583 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/register - 200 163 application/json; charset=utf-8 5051.589ms
+2025-03-19 09:37:04.476 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 51
+2025-03-19 09:37:04.483 +05:30 [INF] CORS policy execution successful.
+2025-03-19 09:37:04.486 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+2025-03-19 09:37:04.491 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:37:04.518 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:37:04.547 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 09:37:04.557 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 30.2489ms
+2025-03-19 09:37:04.561 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:37:04.565 +05:30 [INF] ✅ Response Status: 400, Time Taken: 79 ms
+2025-03-19 09:37:04.569 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 400 31 application/json; charset=utf-8 93.4349ms
+2025-03-19 09:37:19.252 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 52
+2025-03-19 09:37:19.256 +05:30 [INF] CORS policy execution successful.
+2025-03-19 09:37:19.257 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+2025-03-19 09:37:19.260 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:37:19.265 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:37:19.277 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 09:37:19.283 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 13.1943ms
+2025-03-19 09:37:19.288 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:37:19.291 +05:30 [INF] ✅ Response Status: 400, Time Taken: 34 ms
+2025-03-19 09:37:19.297 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 400 31 application/json; charset=utf-8 44.7623ms
+2025-03-19 09:37:35.114 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 43
+2025-03-19 09:37:35.128 +05:30 [INF] CORS policy execution successful.
+2025-03-19 09:37:35.132 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+2025-03-19 09:37:35.138 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:37:35.143 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:37:35.150 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 09:37:35.155 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 6.7767ms
+2025-03-19 09:37:35.159 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:37:35.163 +05:30 [INF] ✅ Response Status: 400, Time Taken: 31 ms
+2025-03-19 09:37:35.168 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 400 31 application/json; charset=utf-8 54.3267ms
+2025-03-19 09:37:45.633 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 50
+2025-03-19 09:37:45.638 +05:30 [INF] CORS policy execution successful.
+2025-03-19 09:37:45.639 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+2025-03-19 09:37:45.643 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:37:45.646 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:37:45.655 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 09:37:45.661 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 8.6884ms
+2025-03-19 09:37:45.665 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:37:45.668 +05:30 [INF] ✅ Response Status: 400, Time Taken: 28 ms
+2025-03-19 09:37:45.674 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 400 31 application/json; charset=utf-8 41.1332ms
+2025-03-19 09:38:13.349 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 63
+2025-03-19 09:38:13.353 +05:30 [INF] CORS policy execution successful.
+2025-03-19 09:38:13.354 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+2025-03-19 09:38:13.357 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:38:13.362 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:38:13.483 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-19 09:38:14.211 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+2025-03-19 09:38:14.324 +05:30 [INF] User logged in: {"Id":14,"FirstName":"Bhavin","LastName":"Patel","Email":"Bhavin@example.com","LoginCount":1,"$type":"UserDTO"}
+2025-03-19 09:38:14.418 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `Users` AS `u`
+2025-03-19 09:38:14.430 +05:30 [INF] User logged in: MiddlewareDemo.Models.UserDTO
+2025-03-19 09:38:14.433 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 09:38:14.444 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 1076.1379ms
+2025-03-19 09:38:14.447 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:38:14.449 +05:30 [INF] ✅ Response Status: 200, Time Taken: 1095 ms
+2025-03-19 09:38:14.453 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 488 application/json; charset=utf-8 1104.4521ms
+2025-03-19 09:39:28.391 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-19 09:39:28.400 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+2025-03-19 09:39:28.519 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 09:39:28.530 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:39:28.692 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+2025-03-19 09:39:28.703 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 09:39:28.720 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 183.936ms
+2025-03-19 09:39:28.724 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 09:39:28.726 +05:30 [INF] ✅ Response Status: 200, Time Taken: 326 ms
+2025-03-19 09:39:28.729 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 1206 application/json; charset=utf-8 338.4129ms
+2025-03-19 09:40:16.964 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/user/14 - null null
+2025-03-19 09:40:16.967 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/user/14 from ::1
+2025-03-19 09:40:16.975 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:40:16.988 +05:30 [INF] Route matched with {action = "GetUserById", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:40:17.041 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+2025-03-19 09:40:17.049 +05:30 [INF] Executing OkObjectResult, writing value of type 'MiddlewareDemo.Models.UserDTO'.
+2025-03-19 09:40:17.053 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo) in 58.477ms
+2025-03-19 09:40:17.055 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:40:17.058 +05:30 [INF] ✅ Response Status: 200, Time Taken: 90 ms
+2025-03-19 09:40:17.061 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/user/14 - 200 93 application/json; charset=utf-8 96.5636ms
+2025-03-19 09:42:26.300 +05:30 [INF] Application is shutting down...
+2025-03-19 09:42:38.414 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 09:42:38.518 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 09:42:38.521 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 09:42:38.523 +05:30 [INF] Hosting environment: Development
+2025-03-19 09:42:38.523 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 09:42:46.912 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/ - null null
+2025-03-19 09:42:47.136 +05:30 [INF] ➡️ Incoming Request: GET / from ::1
+2025-03-19 09:42:47.235 +05:30 [INF] ✅ Response Status: 404, Time Taken: 100 ms
+2025-03-19 09:42:47.242 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/ - 404 0 null 331.6352ms
+2025-03-19 09:42:47.255 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5215/, Response status code: 404
+2025-03-19 09:43:23.480 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/ - null null
+2025-03-19 09:43:23.485 +05:30 [INF] ➡️ Incoming Request: GET / from ::1
+2025-03-19 09:43:23.490 +05:30 [INF] ✅ Response Status: 404, Time Taken: 5 ms
+2025-03-19 09:43:23.495 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/ - 404 0 null 15.2452ms
+2025-03-19 09:43:23.498 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5215/, Response status code: 404
+2025-03-19 09:43:27.380 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/ - null null
+2025-03-19 09:43:27.384 +05:30 [INF] ➡️ Incoming Request: GET / from ::1
+2025-03-19 09:43:27.392 +05:30 [INF] ✅ Response Status: 404, Time Taken: 8 ms
+2025-03-19 09:43:27.395 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/ - 404 0 null 14.9769ms
+2025-03-19 09:43:27.404 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5215/, Response status code: 404
+2025-03-19 09:44:19.293 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 09:44:19.424 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 09:44:19.428 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 09:44:19.430 +05:30 [INF] Hosting environment: Development
+2025-03-19 09:44:19.431 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 09:44:22.000 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/ - null null
+2025-03-19 09:44:22.024 +05:30 [INF] ➡️ Incoming Request: GET / from ::1
+2025-03-19 09:44:22.208 +05:30 [INF] ✅ Response Status: 404, Time Taken: 185 ms
+2025-03-19 09:44:22.231 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/ - 404 0 null 231.6407ms
+2025-03-19 09:44:22.272 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5215/, Response status code: 404
+2025-03-19 09:45:17.540 +05:30 [INF] Application is shutting down...
+2025-03-19 09:45:20.826 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 09:45:20.911 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 09:45:20.915 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 09:45:20.917 +05:30 [INF] Hosting environment: Development
+2025-03-19 09:45:20.918 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 09:45:35.260 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.html - null null
+2025-03-19 09:45:35.319 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.html from ::1
+2025-03-19 09:45:35.636 +05:30 [INF] ✅ Response Status: 200, Time Taken: 319 ms
+2025-03-19 09:45:35.642 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.html - 200 null text/html;charset=utf-8 388.8271ms
+2025-03-19 09:45:35.674 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.js - null null
+2025-03-19 09:45:35.679 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.js from ::1
+2025-03-19 09:45:35.685 +05:30 [INF] ✅ Response Status: 200, Time Taken: 5 ms
+2025-03-19 09:45:35.688 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.js - 200 null application/javascript;charset=utf-8 14.8751ms
+2025-03-19 09:45:35.742 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - null null
+2025-03-19 09:45:35.750 +05:30 [INF] ➡️ Incoming Request: GET /swagger/v1/swagger.json from ::1
+2025-03-19 09:45:36.045 +05:30 [INF] ✅ Response Status: 200, Time Taken: 294 ms
+2025-03-19 09:45:36.049 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 306.7628ms
+2025-03-19 09:45:54.727 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 63
+2025-03-19 09:45:54.745 +05:30 [INF] CORS policy execution successful.
+2025-03-19 09:45:54.749 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+2025-03-19 09:45:54.759 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:45:54.823 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:45:58.007 +05:30 [INF] Executed DbCommand (92ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-19 09:45:59.373 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+2025-03-19 09:45:59.505 +05:30 [INF] User logged in: {"Id":14,"FirstName":"Bhavin","LastName":"Patel","Email":"Bhavin@example.com","LoginCount":2,"$type":"UserDTO"}
+2025-03-19 09:45:59.614 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `Users` AS `u`
+2025-03-19 09:45:59.625 +05:30 [INF] User logged in: MiddlewareDemo.Models.UserDTO
+2025-03-19 09:45:59.646 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 09:45:59.728 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 4891.2744ms
+2025-03-19 09:45:59.733 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 09:45:59.738 +05:30 [INF] ✅ Response Status: 200, Time Taken: 4989 ms
+2025-03-19 09:45:59.756 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 488 application/json; charset=utf-8 5029.488ms
+2025-03-19 09:47:39.736 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - null null
+2025-03-19 09:47:39.744 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/user/1 from ::1
+2025-03-19 09:47:39.850 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:47:39.864 +05:30 [INF] Route matched with {action = "GetUserById", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:47:39.941 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+2025-03-19 09:47:39.949 +05:30 [INF] Executing OkObjectResult, writing value of type 'MiddlewareDemo.Models.UserDTO'.
+2025-03-19 09:47:39.953 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo) in 80.8045ms
+2025-03-19 09:47:39.956 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:47:39.959 +05:30 [INF] ✅ Response Status: 200, Time Taken: 215 ms
+2025-03-19 09:47:39.965 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - 200 90 application/json; charset=utf-8 228.3982ms
+2025-03-19 09:52:07.323 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - null null
+2025-03-19 09:52:07.328 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/user/1 from ::1
+2025-03-19 09:52:07.339 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:52:07.344 +05:30 [INF] Route matched with {action = "GetUserById", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:52:07.527 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+2025-03-19 09:52:07.535 +05:30 [INF] Executing OkObjectResult, writing value of type 'MiddlewareDemo.Models.UserDTO'.
+2025-03-19 09:52:07.544 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo) in 192.5266ms
+2025-03-19 09:52:07.547 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:52:07.550 +05:30 [INF] ✅ Response Status: 200, Time Taken: 221 ms
+2025-03-19 09:52:07.554 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - 200 90 application/json; charset=utf-8 230.7341ms
+2025-03-19 09:52:13.514 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - null null
+2025-03-19 09:52:13.529 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/user/1 from ::1
+2025-03-19 09:52:13.539 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:52:13.546 +05:30 [INF] Route matched with {action = "GetUserById", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:52:13.558 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+2025-03-19 09:52:13.568 +05:30 [INF] Executing OkObjectResult, writing value of type 'MiddlewareDemo.Models.UserDTO'.
+2025-03-19 09:52:13.573 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo) in 20.2634ms
+2025-03-19 09:52:13.578 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:52:13.581 +05:30 [INF] ✅ Response Status: 200, Time Taken: 51 ms
+2025-03-19 09:52:13.588 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - 200 90 application/json; charset=utf-8 73.5869ms
+2025-03-19 09:52:17.207 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - null null
+2025-03-19 09:52:17.211 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/user/1 from ::1
+2025-03-19 09:52:17.216 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:52:17.223 +05:30 [INF] Route matched with {action = "GetUserById", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:52:17.234 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+2025-03-19 09:52:17.241 +05:30 [INF] Executing OkObjectResult, writing value of type 'MiddlewareDemo.Models.UserDTO'.
+2025-03-19 09:52:17.246 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo) in 17.8272ms
+2025-03-19 09:52:17.250 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:52:17.254 +05:30 [INF] ✅ Response Status: 200, Time Taken: 43 ms
+2025-03-19 09:52:17.258 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - 200 90 application/json; charset=utf-8 51.1071ms
+2025-03-19 09:52:29.962 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - null null
+2025-03-19 09:52:29.966 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/user/1 from ::1
+2025-03-19 09:52:29.968 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:52:29.970 +05:30 [INF] Route matched with {action = "GetUserById", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:52:29.982 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+2025-03-19 09:52:29.994 +05:30 [INF] Executing OkObjectResult, writing value of type 'MiddlewareDemo.Models.UserDTO'.
+2025-03-19 09:52:29.998 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo) in 22.4026ms
+2025-03-19 09:52:30.004 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:52:30.009 +05:30 [INF] ✅ Response Status: 200, Time Taken: 42 ms
+2025-03-19 09:52:30.014 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - 200 90 application/json; charset=utf-8 51.9334ms
+2025-03-19 09:52:58.160 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - null null
+2025-03-19 09:52:58.166 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/user/1 from ::1
+2025-03-19 09:52:58.173 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:52:58.177 +05:30 [INF] Route matched with {action = "GetUserById", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 09:52:58.191 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+2025-03-19 09:52:58.199 +05:30 [INF] Executing OkObjectResult, writing value of type 'MiddlewareDemo.Models.UserDTO'.
+2025-03-19 09:52:58.204 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo) in 19.5381ms
+2025-03-19 09:52:58.208 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 09:52:58.211 +05:30 [INF] ✅ Response Status: 200, Time Taken: 44 ms
+2025-03-19 09:52:58.214 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - 200 90 application/json; charset=utf-8 54.3137ms
+2025-03-19 11:02:54.798 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - null null
+2025-03-19 11:02:54.803 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/user/1 from ::1
+2025-03-19 11:02:54.817 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '19-03-2025 05:15:59', Current time (UTC): '19-03-2025 05:32:54'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-19 11:02:54.843 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '19-03-2025 05:15:59', Current time (UTC): '19-03-2025 05:32:54'.
+2025-03-19 11:02:54.846 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-19 11:02:54.855 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-19 11:02:54.859 +05:30 [INF] ✅ Response Status: 401, Time Taken: 55 ms
+2025-03-19 11:02:54.864 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/user/1 - 401 0 null 65.8072ms
+2025-03-19 11:04:31.201 +05:30 [INF] Application is shutting down...
+2025-03-19 11:04:43.028 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 11:04:43.162 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 11:04:43.165 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 11:04:43.167 +05:30 [INF] Hosting environment: Development
+2025-03-19 11:04:43.168 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 11:04:46.382 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.html - null null
+2025-03-19 11:04:46.403 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.html from ::1
+2025-03-19 11:04:46.540 +05:30 [INF] ✅ Response Status: 200, Time Taken: 136 ms
+2025-03-19 11:04:46.545 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.html - 200 null text/html;charset=utf-8 166.014ms
+2025-03-19 11:04:46.557 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.js - null null
+2025-03-19 11:04:46.562 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.js from ::1
+2025-03-19 11:04:46.565 +05:30 [INF] ✅ Response Status: 200, Time Taken: 3 ms
+2025-03-19 11:04:46.567 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.js - 200 null application/javascript;charset=utf-8 10.6791ms
+2025-03-19 11:04:46.843 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - null null
+2025-03-19 11:04:46.848 +05:30 [INF] ➡️ Incoming Request: GET /swagger/v1/swagger.json from ::1
+2025-03-19 11:04:46.972 +05:30 [INF] ✅ Response Status: 200, Time Taken: 124 ms
+2025-03-19 11:04:46.975 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.5792ms
+2025-03-19 11:05:16.046 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 63
+2025-03-19 11:05:16.063 +05:30 [INF] CORS policy execution successful.
+2025-03-19 11:05:16.067 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+2025-03-19 11:05:16.074 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 11:05:16.117 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:05:18.489 +05:30 [INF] Executed DbCommand (61ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-19 11:05:18.536 +05:30 [WRN] Login failed: Invalid credentials!
+2025-03-19 11:05:18.553 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:05:18.605 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 2476.3008ms
+2025-03-19 11:05:18.609 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 11:05:18.614 +05:30 [INF] ✅ Response Status: 400, Time Taken: 2546 ms
+2025-03-19 11:05:18.641 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 400 32 application/json; charset=utf-8 2595.1969ms
+2025-03-19 11:05:29.938 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 63
+2025-03-19 11:05:29.946 +05:30 [INF] CORS policy execution successful.
+2025-03-19 11:05:29.950 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+2025-03-19 11:05:29.954 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 11:05:29.959 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:05:30.005 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-19 11:05:30.799 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+2025-03-19 11:05:30.907 +05:30 [INF] User logged in: {"Id":14,"FirstName":"Bhavin","LastName":"Patel","Email":"Bhavin@example.com","LoginCount":3,"$type":"UserDTO"}
+2025-03-19 11:05:30.973 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `Users` AS `u`
+2025-03-19 11:05:30.982 +05:30 [INF] User logged in: MiddlewareDemo.Models.UserDTO
+2025-03-19 11:05:30.987 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:05:31.005 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 1041.2587ms
+2025-03-19 11:05:31.008 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 11:05:31.011 +05:30 [INF] ✅ Response Status: 200, Time Taken: 1061 ms
+2025-03-19 11:05:31.016 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 488 application/json; charset=utf-8 1078.055ms
+2025-03-19 11:06:16.615 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-19 11:06:16.620 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+2025-03-19 11:06:16.696 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:06:16.705 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:06:16.832 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+2025-03-19 11:06:16.839 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:06:16.857 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 145.4184ms
+2025-03-19 11:06:16.861 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:06:16.865 +05:30 [INF] ✅ Response Status: 200, Time Taken: 245 ms
+2025-03-19 11:06:16.870 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 1206 application/json; charset=utf-8 255.11ms
+2025-03-19 11:09:20.680 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-19 11:09:20.691 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+2025-03-19 11:09:20.703 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:09:20.706 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:09:20.730 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+2025-03-19 11:09:20.736 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:09:20.741 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 32.0716ms
+2025-03-19 11:09:20.744 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:09:20.745 +05:30 [INF] ✅ Response Status: 200, Time Taken: 54 ms
+2025-03-19 11:09:20.748 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 1206 application/json; charset=utf-8 67.7382ms
+2025-03-19 11:09:39.673 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/user/14 - null null
+2025-03-19 11:09:39.682 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/user/14 from ::1
+2025-03-19 11:09:39.689 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 11:09:39.698 +05:30 [INF] Route matched with {action = "GetUserById", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:09:39.730 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+2025-03-19 11:09:39.737 +05:30 [INF] Executing OkObjectResult, writing value of type 'MiddlewareDemo.Models.UserDTO'.
+2025-03-19 11:09:39.739 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo) in 37.0625ms
+2025-03-19 11:09:39.743 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+2025-03-19 11:09:39.746 +05:30 [INF] ✅ Response Status: 200, Time Taken: 63 ms
+2025-03-19 11:09:39.749 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/user/14 - 200 93 application/json; charset=utf-8 75.6513ms
+2025-03-19 11:11:22.156 +05:30 [INF] Application is shutting down...
+2025-03-19 11:11:25.744 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 11:11:25.829 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 11:11:25.833 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 11:11:25.834 +05:30 [INF] Hosting environment: Development
+2025-03-19 11:11:25.836 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 11:11:34.646 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.html - null null
+2025-03-19 11:11:34.662 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.html from ::1
+2025-03-19 11:11:34.762 +05:30 [INF] ✅ Response Status: 200, Time Taken: 100 ms
+2025-03-19 11:11:34.768 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.html - 200 null text/html;charset=utf-8 123.6172ms
+2025-03-19 11:11:34.782 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.js - null null
+2025-03-19 11:11:34.788 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.js from ::1
+2025-03-19 11:11:34.793 +05:30 [INF] ✅ Response Status: 200, Time Taken: 4 ms
+2025-03-19 11:11:34.795 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.js - 200 null application/javascript;charset=utf-8 13.6738ms
+2025-03-19 11:11:35.085 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - null null
+2025-03-19 11:11:35.093 +05:30 [INF] ➡️ Incoming Request: GET /swagger/v1/swagger.json from ::1
+2025-03-19 11:11:35.186 +05:30 [INF] ✅ Response Status: 200, Time Taken: 92 ms
+2025-03-19 11:11:35.190 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.4608ms
+2025-03-19 11:12:03.542 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 63
+2025-03-19 11:12:03.556 +05:30 [INF] CORS policy execution successful.
+2025-03-19 11:12:03.559 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+2025-03-19 11:12:03.565 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 11:12:03.611 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:12:05.311 +05:30 [INF] Executed DbCommand (58ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-19 11:12:06.301 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+2025-03-19 11:12:06.371 +05:30 [INF] User logged in: {"Id":14,"FirstName":"Bhavin","LastName":"Patel","Email":"Bhavin@example.com","LoginCount":4,"$type":"UserDTO"}
+2025-03-19 11:12:06.447 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `Users` AS `u`
+2025-03-19 11:12:06.458 +05:30 [INF] User logged in: MiddlewareDemo.Models.UserDTO
+2025-03-19 11:12:06.474 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:12:06.558 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 2929.3377ms
+2025-03-19 11:12:06.565 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 11:12:06.570 +05:30 [INF] ✅ Response Status: 200, Time Taken: 3010 ms
+2025-03-19 11:12:06.594 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 488 application/json; charset=utf-8 3052.1111ms
+2025-03-19 11:12:37.021 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-19 11:12:37.027 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+2025-03-19 11:12:37.110 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:12:37.117 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:12:37.160 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+2025-03-19 11:12:37.170 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:12:37.182 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 60.3038ms
+2025-03-19 11:12:37.186 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:12:37.188 +05:30 [INF] ✅ Response Status: 200, Time Taken: 160 ms
+2025-03-19 11:12:37.191 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 1206 application/json; charset=utf-8 170.0498ms
+2025-03-19 11:14:41.499 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-19 11:14:41.502 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+2025-03-19 11:14:41.509 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:14:41.512 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:14:41.638 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+2025-03-19 11:14:41.646 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:14:41.652 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 134.8137ms
+2025-03-19 11:14:41.655 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:14:41.658 +05:30 [INF] ✅ Response Status: 200, Time Taken: 155 ms
+2025-03-19 11:14:41.662 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 1206 application/json; charset=utf-8 163.208ms
+2025-03-19 11:14:44.763 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-19 11:14:44.767 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+2025-03-19 11:14:44.772 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:14:44.776 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:14:44.784 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+2025-03-19 11:14:44.792 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:14:44.796 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 15.8302ms
+2025-03-19 11:14:44.800 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:14:44.802 +05:30 [INF] ✅ Response Status: 200, Time Taken: 34 ms
+2025-03-19 11:14:44.806 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 1206 application/json; charset=utf-8 42.2459ms
+2025-03-19 11:17:27.986 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-19 11:17:27.991 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+2025-03-19 11:17:27.993 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:17:27.994 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:17:28.000 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+2025-03-19 11:17:28.002 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:17:28.004 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 7.3404ms
+2025-03-19 11:17:28.005 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:17:28.006 +05:30 [INF] ✅ Response Status: 200, Time Taken: 14 ms
+2025-03-19 11:17:28.007 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 1206 application/json; charset=utf-8 20.8189ms
+2025-03-19 11:17:32.196 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.html - null null
+2025-03-19 11:17:32.201 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.html from ::1
+2025-03-19 11:17:32.206 +05:30 [INF] ✅ Response Status: 200, Time Taken: 5 ms
+2025-03-19 11:17:32.213 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.html - 200 null text/html;charset=utf-8 17.0038ms
+2025-03-19 11:17:32.227 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.js - null null
+2025-03-19 11:17:32.232 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.js from ::1
+2025-03-19 11:17:32.235 +05:30 [INF] ✅ Response Status: 200, Time Taken: 2 ms
+2025-03-19 11:17:32.237 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.js - 200 null application/javascript;charset=utf-8 9.3875ms
+2025-03-19 11:17:32.343 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - null null
+2025-03-19 11:17:32.350 +05:30 [INF] ➡️ Incoming Request: GET /swagger/v1/swagger.json from ::1
+2025-03-19 11:17:32.359 +05:30 [INF] ✅ Response Status: 200, Time Taken: 9 ms
+2025-03-19 11:17:32.362 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.7437ms
+2025-03-19 11:17:58.888 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 63
+2025-03-19 11:17:58.893 +05:30 [INF] CORS policy execution successful.
+2025-03-19 11:17:58.897 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+2025-03-19 11:17:58.901 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 11:17:58.905 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:17:58.920 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-19 11:17:59.360 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+2025-03-19 11:17:59.369 +05:30 [INF] User logged in: {"Id":14,"FirstName":"Bhavin","LastName":"Patel","Email":"Bhavin@example.com","LoginCount":5,"$type":"UserDTO"}
+2025-03-19 11:17:59.382 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `Users` AS `u`
+2025-03-19 11:17:59.388 +05:30 [INF] User logged in: MiddlewareDemo.Models.UserDTO
+2025-03-19 11:17:59.391 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:17:59.396 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 485.9527ms
+2025-03-19 11:17:59.401 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 11:17:59.404 +05:30 [INF] ✅ Response Status: 200, Time Taken: 507 ms
+2025-03-19 11:17:59.408 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 488 application/json; charset=utf-8 519.842ms
+2025-03-19 11:18:21.764 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-19 11:18:21.773 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+2025-03-19 11:18:21.777 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:18:21.780 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:18:21.788 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+2025-03-19 11:18:21.792 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:18:21.796 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 12.3587ms
+2025-03-19 11:18:21.798 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:18:21.800 +05:30 [INF] ✅ Response Status: 200, Time Taken: 26 ms
+2025-03-19 11:18:21.803 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 1206 application/json; charset=utf-8 38.4029ms
+2025-03-19 11:35:53.480 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 60
+2025-03-19 11:35:53.484 +05:30 [INF] CORS policy execution successful.
+2025-03-19 11:35:53.486 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+2025-03-19 11:35:53.490 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 11:35:53.492 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:35:53.534 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-19 11:35:53.880 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+2025-03-19 11:35:53.885 +05:30 [INF] User logged in: {"Id":12,"FirstName":"naman","LastName":"advani","Email":"naman@gmail.com","LoginCount":6,"$type":"UserDTO"}
+2025-03-19 11:35:53.899 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `Users` AS `u`
+2025-03-19 11:35:53.906 +05:30 [INF] User logged in: MiddlewareDemo.Models.UserDTO
+2025-03-19 11:35:53.909 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:35:53.913 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 415.3618ms
+2025-03-19 11:35:53.918 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-19 11:35:53.920 +05:30 [INF] ✅ Response Status: 200, Time Taken: 433 ms
+2025-03-19 11:35:53.924 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 481 application/json; charset=utf-8 444.1783ms
+2025-03-19 11:36:02.002 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/user/12 - null null
+2025-03-19 11:36:02.007 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/user/12 from ::1
+2025-03-19 11:36:02.015 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-19 11:36:02.021 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-19 11:36:02.023 +05:30 [INF] ✅ Response Status: 401, Time Taken: 15 ms
+2025-03-19 11:36:02.026 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/user/12 - 401 0 null 23.9648ms
+2025-03-19 11:36:07.425 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-19 11:36:07.434 +05:30 [INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+2025-03-19 11:36:07.441 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:36:07.445 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:36:07.451 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+2025-03-19 11:36:07.458 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:36:07.461 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 12.8017ms
+2025-03-19 11:36:07.464 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-19 11:36:07.466 +05:30 [INF] ✅ Response Status: 200, Time Taken: 31 ms
+2025-03-19 11:36:07.468 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 1206 application/json; charset=utf-8 42.5013ms
+2025-03-19 11:50:06.919 +05:30 [INF] Application is shutting down...
+2025-03-19 11:50:17.019 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 11:50:17.140 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 11:50:17.143 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 11:50:17.144 +05:30 [INF] Hosting environment: Development
+2025-03-19 11:50:17.145 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 11:51:13.385 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.html - null null
+2025-03-19 11:51:13.407 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.html from ::1
+2025-03-19 11:51:13.548 +05:30 [INF] ✅ Response Status: 200, Time Taken: 140 ms
+2025-03-19 11:51:13.553 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.html - 200 null text/html;charset=utf-8 169.592ms
+2025-03-19 11:51:13.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.js - null null
+2025-03-19 11:51:13.565 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.js from ::1
+2025-03-19 11:51:13.568 +05:30 [INF] ✅ Response Status: 200, Time Taken: 3 ms
+2025-03-19 11:51:13.570 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.js - 200 null application/javascript;charset=utf-8 9.357ms
+2025-03-19 11:51:13.848 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - null null
+2025-03-19 11:51:13.855 +05:30 [INF] ➡️ Incoming Request: GET /swagger/v1/swagger.json from ::1
+2025-03-19 11:51:13.983 +05:30 [INF] ✅ Response Status: 200, Time Taken: 127 ms
+2025-03-19 11:51:13.989 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 140.7297ms
+2025-03-19 11:52:04.348 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/register - application/json-patch+json 139
+2025-03-19 11:52:04.366 +05:30 [INF] CORS policy execution successful.
+2025-03-19 11:52:04.368 +05:30 [INF] ➡️ Incoming Request: POST /api/auth/register from ::1
+2025-03-19 11:52:04.372 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-19 11:52:04.411 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiddlewareDemo.Models.RegisterUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-19 11:52:05.342 +05:30 [WRN] Registration failed: Weak password! Password must be at least 8 characters long, contain at least 1 uppercase, 1 lowercase, 1 number, and 1 special character.
+2025-03-19 11:52:05.353 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 11:52:05.407 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Register (middleware_demo) in 985.3891ms
+2025-03-19 11:52:05.410 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-19 11:52:05.413 +05:30 [INF] ✅ Response Status: 400, Time Taken: 1044 ms
+2025-03-19 11:52:05.418 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/register - 400 149 application/json; charset=utf-8 1070.4654ms
+2025-03-19 12:03:46.702 +05:30 [INF] Application is shutting down...
+2025-03-19 12:03:52.427 +05:30 [INF] 🚀 Application Starting...
+2025-03-19 12:03:52.734 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 12:03:52.795 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 12:03:52.800 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 12:03:52.801 +05:30 [INF] Hosting environment: Development
+2025-03-19 12:03:52.802 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 12:04:12.050 +05:30 [INF] Application is shutting down...
+2025-03-19 12:04:16.062 +05:30 [INF] 🚀 Application Starting...
+2025-03-19 12:04:16.356 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 12:04:16.413 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 12:04:16.416 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 12:04:16.418 +05:30 [INF] Hosting environment: Development
+2025-03-19 12:04:16.419 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 12:09:10.575 +05:30 [INF] Application is shutting down...
+2025-03-19 12:09:13.973 +05:30 [INF] 🚀 Application Starting...
+2025-03-19 12:09:14.269 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 12:09:14.333 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 12:09:14.336 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 12:09:14.338 +05:30 [INF] Hosting environment: Development
+2025-03-19 12:09:14.339 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 12:09:45.761 +05:30 [INF] Application is shutting down...
+[2025-03-19 12:14:17 INF] 🚀 Application Starting...
+[2025-03-19 12:14:18 DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2025-03-19 12:14:18 DBG] Hosting starting
+[2025-03-19 12:14:18 INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-03-19 12:14:18 DBG] Reading data from file 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys\key-b0dc3220-157c-404c-96c0-8a3a78b4d612.xml'.
+[2025-03-19 12:14:18 DBG] Found key {b0dc3220-157c-404c-96c0-8a3a78b4d612}.
+[2025-03-19 12:14:18 DBG] Considering key {b0dc3220-157c-404c-96c0-8a3a78b4d612} with expiration date 2025-04-27 08:33:18Z as default key.
+[2025-03-19 12:14:18 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-03-19 12:14:18 DBG] Decrypting secret element using Windows DPAPI.
+[2025-03-19 12:14:18 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-03-19 12:14:18 DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2025-03-19 12:14:18 DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2025-03-19 12:14:18 DBG] Using key {b0dc3220-157c-404c-96c0-8a3a78b4d612} as the default key.
+[2025-03-19 12:14:18 DBG] Key ring with default key {b0dc3220-157c-404c-96c0-8a3a78b4d612} was loaded during application startup.
+[2025-03-19 12:14:18 INF] Now listening on: http://localhost:5215
+[2025-03-19 12:14:18 DBG] Loaded hosting startup assembly middleware_demo
+[2025-03-19 12:14:18 INF] Application started. Press Ctrl+C to shut down.
+[2025-03-19 12:14:18 INF] Hosting environment: Development
+[2025-03-19 12:14:18 INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+[2025-03-19 12:14:18 DBG] Hosting started
+[2025-03-19 12:16:21 INF] Application is shutting down...
+[2025-03-19 12:16:21 DBG] Hosting stopping
+[2025-03-19 12:16:21 DBG] Hosting stopped
+[2025-03-19 12:16:24 INF] 🚀 Application Starting...
+[2025-03-19 12:16:25 DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2025-03-19 12:16:25 DBG] Hosting starting
+[2025-03-19 12:16:25 INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-03-19 12:16:25 DBG] Reading data from file 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys\key-b0dc3220-157c-404c-96c0-8a3a78b4d612.xml'.
+[2025-03-19 12:16:25 DBG] Found key {b0dc3220-157c-404c-96c0-8a3a78b4d612}.
+[2025-03-19 12:16:25 DBG] Considering key {b0dc3220-157c-404c-96c0-8a3a78b4d612} with expiration date 2025-04-27 08:33:18Z as default key.
+[2025-03-19 12:16:25 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-03-19 12:16:25 DBG] Decrypting secret element using Windows DPAPI.
+[2025-03-19 12:16:25 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-03-19 12:16:25 DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2025-03-19 12:16:25 DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2025-03-19 12:16:25 DBG] Using key {b0dc3220-157c-404c-96c0-8a3a78b4d612} as the default key.
+[2025-03-19 12:16:25 DBG] Key ring with default key {b0dc3220-157c-404c-96c0-8a3a78b4d612} was loaded during application startup.
+[2025-03-19 12:16:25 INF] Now listening on: http://localhost:5215
+[2025-03-19 12:16:25 DBG] Loaded hosting startup assembly middleware_demo
+[2025-03-19 12:16:25 INF] Application started. Press Ctrl+C to shut down.
+[2025-03-19 12:16:25 INF] Hosting environment: Development
+[2025-03-19 12:16:25 INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+[2025-03-19 12:16:25 DBG] Hosting started
+[2025-03-19 12:19:24 INF] 🚀 Application Starting...
+[2025-03-19 12:19:24 DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2025-03-19 12:19:24 DBG] Hosting starting
+[2025-03-19 12:19:24 INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-03-19 12:19:24 DBG] Reading data from file 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys\key-b0dc3220-157c-404c-96c0-8a3a78b4d612.xml'.
+[2025-03-19 12:19:24 DBG] Found key {b0dc3220-157c-404c-96c0-8a3a78b4d612}.
+[2025-03-19 12:19:24 DBG] Considering key {b0dc3220-157c-404c-96c0-8a3a78b4d612} with expiration date 2025-04-27 08:33:18Z as default key.
+[2025-03-19 12:19:24 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-03-19 12:19:24 DBG] Decrypting secret element using Windows DPAPI.
+[2025-03-19 12:19:24 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-03-19 12:19:24 DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2025-03-19 12:19:24 DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2025-03-19 12:19:24 DBG] Using key {b0dc3220-157c-404c-96c0-8a3a78b4d612} as the default key.
+[2025-03-19 12:19:24 DBG] Key ring with default key {b0dc3220-157c-404c-96c0-8a3a78b4d612} was loaded during application startup.
+[2025-03-19 12:19:24 INF] Now listening on: http://localhost:5215
+[2025-03-19 12:19:24 DBG] Loaded hosting startup assembly middleware_demo
+[2025-03-19 12:19:24 INF] Application started. Press Ctrl+C to shut down.
+[2025-03-19 12:19:24 INF] Hosting environment: Development
+[2025-03-19 12:19:24 INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+[2025-03-19 12:19:24 DBG] Hosting started
+[2025-03-19 12:20:20 INF] Application is shutting down...
+[2025-03-19 12:20:20 DBG] Hosting stopping
+[2025-03-19 12:20:20 DBG] Hosting stopped
+2025-03-19 12:20:24.454 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 12:20:24.550 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 12:20:24.552 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 12:20:24.555 +05:30 [INF] Hosting environment: Development
+2025-03-19 12:20:24.556 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 12:21:23.071 +05:30 [INF] Application is shutting down...
+2025-03-19 12:21:26.207 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 12:21:26.303 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 12:21:26.307 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 12:21:26.310 +05:30 [INF] Hosting environment: Development
+2025-03-19 12:21:26.311 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-19 12:25:06.787 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.html - null null
+2025-03-19 12:25:06.827 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.html from ::1
+2025-03-19 12:25:07.087 +05:30 [INF] ✅ Response Status: 200, Time Taken: 262 ms
+2025-03-19 12:25:07.094 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.html - 200 null text/html;charset=utf-8 309.8534ms
+2025-03-19 12:25:07.107 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.js - null null
+2025-03-19 12:25:07.113 +05:30 [INF] ➡️ Incoming Request: GET /swagger/index.js from ::1
+2025-03-19 12:25:07.119 +05:30 [INF] ✅ Response Status: 200, Time Taken: 6 ms
+2025-03-19 12:25:07.124 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.js - 200 null application/javascript;charset=utf-8 17.1742ms
+2025-03-19 12:25:07.241 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - null null
+2025-03-19 12:25:07.246 +05:30 [INF] ➡️ Incoming Request: GET /swagger/v1/swagger.json from ::1
+2025-03-19 12:25:07.437 +05:30 [INF] ✅ Response Status: 200, Time Taken: 191 ms
+2025-03-19 12:25:07.441 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 200.0184ms
+2025-03-19 12:27:33.758 +05:30 [INF] Application is shutting down...

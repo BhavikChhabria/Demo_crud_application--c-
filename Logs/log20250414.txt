@@ -1,0 +1,84 @@
+[2025-04-14 17:18:08 INF] 🚀 Application is starting...
+[2025-04-14 17:18:09 DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+[2025-04-14 17:18:10 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-04-14 17:18:10 DBG] Creating DbConnection.
+[2025-04-14 17:18:10 DBG] Created DbConnection. (3ms).
+[2025-04-14 17:18:10 DBG] Migrating using database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Creating DbConnection.
+[2025-04-14 17:18:10 DBG] Created DbConnection. (2ms).
+[2025-04-14 17:18:10 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Disposed connection to database '' on server '127.0.0.1' (1ms).
+[2025-04-14 17:18:10 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-04-14 17:18:10 DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+[2025-04-14 17:18:10 DBG] Initialized DbCommand for 'ExecuteScalar' (11ms).
+[2025-04-14 17:18:10 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-14 17:18:10 INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-14 17:18:10 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (2ms).
+[2025-04-14 17:18:10 DBG] Creating DbConnection.
+[2025-04-14 17:18:10 DBG] Created DbConnection. (0ms).
+[2025-04-14 17:18:10 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Disposed connection to database '' on server '127.0.0.1' (1ms).
+[2025-04-14 17:18:10 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-04-14 17:18:10 DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+[2025-04-14 17:18:10 DBG] Initialized DbCommand for 'ExecuteScalar' (1ms).
+[2025-04-14 17:18:10 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-14 17:18:10 INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-14 17:18:10 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-14 17:18:10 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-14 17:18:10 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-14 17:18:10 DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+[2025-04-14 17:18:10 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-04-14 17:18:10 INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-04-14 17:18:10 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 2ms reading results.
+[2025-04-14 17:18:10 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-04-14 17:18:10 INF] No migrations were applied. The database is already up to date.
+[2025-04-14 17:18:10 INF] ✅ Database migrated successfully.
+[2025-04-14 17:18:10 DBG] 'ApplicationDbContext' disposed.
+[2025-04-14 17:18:10 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-14 17:18:10 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-14 17:18:10 DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2025-04-14 17:18:10 DBG] Hosting starting
+[2025-04-14 17:18:10 INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-14 17:18:10 DBG] Reading data from file 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys\key-b0dc3220-157c-404c-96c0-8a3a78b4d612.xml'.
+[2025-04-14 17:18:10 DBG] Found key {b0dc3220-157c-404c-96c0-8a3a78b4d612}.
+[2025-04-14 17:18:10 DBG] Considering key {b0dc3220-157c-404c-96c0-8a3a78b4d612} with expiration date 2025-04-27 08:33:18Z as default key.
+[2025-04-14 17:18:10 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-04-14 17:18:10 DBG] Decrypting secret element using Windows DPAPI.
+[2025-04-14 17:18:10 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-04-14 17:18:10 DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2025-04-14 17:18:10 DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2025-04-14 17:18:10 DBG] Using key {b0dc3220-157c-404c-96c0-8a3a78b4d612} as the default key.
+[2025-04-14 17:18:10 DBG] Key ring with default key {b0dc3220-157c-404c-96c0-8a3a78b4d612} was loaded during application startup.
+[2025-04-14 17:18:10 INF] Now listening on: http://localhost:5215
+[2025-04-14 17:18:10 DBG] Loaded hosting startup assembly middleware_demo
+[2025-04-14 17:18:10 INF] Application started. Press Ctrl+C to shut down.
+[2025-04-14 17:18:10 INF] Hosting environment: Development
+[2025-04-14 17:18:10 INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+[2025-04-14 17:18:10 DBG] Hosting started
+[2025-04-14 17:18:16 INF] Application is shutting down...
+[2025-04-14 17:18:16 DBG] Hosting stopping
+[2025-04-14 17:18:16 DBG] Hosting stopped

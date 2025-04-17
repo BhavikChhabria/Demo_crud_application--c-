@@ -1,0 +1,184 @@
+[2025-03-28 15:38:53 INF] 🚀 Application is starting...
+[2025-03-28 15:38:54 DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+[2025-03-28 15:38:55 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-03-28 15:38:55 DBG] Creating DbConnection.
+[2025-03-28 15:38:55 DBG] Created DbConnection. (4ms).
+[2025-03-28 15:38:55 DBG] Migrating using database 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Creating DbConnection.
+[2025-03-28 15:38:55 DBG] Created DbConnection. (2ms).
+[2025-03-28 15:38:55 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Disposed connection to database '' on server '127.0.0.1' (2ms).
+[2025-03-28 15:38:55 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-03-28 15:38:55 DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+[2025-03-28 15:38:55 DBG] Initialized DbCommand for 'ExecuteScalar' (13ms).
+[2025-03-28 15:38:55 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-03-28 15:38:55 INF] Executed DbCommand (74ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-03-28 15:38:55 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (3ms).
+[2025-03-28 15:38:55 DBG] Creating DbConnection.
+[2025-03-28 15:38:55 DBG] Created DbConnection. (1ms).
+[2025-03-28 15:38:55 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Disposed connection to database '' on server '127.0.0.1' (1ms).
+[2025-03-28 15:38:55 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-03-28 15:38:55 DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+[2025-03-28 15:38:55 DBG] Initialized DbCommand for 'ExecuteScalar' (2ms).
+[2025-03-28 15:38:55 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-03-28 15:38:55 INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-03-28 15:38:55 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-03-28 15:38:55 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-03-28 15:38:55 DBG] Created DbCommand for 'ExecuteReader' (1ms).
+[2025-03-28 15:38:55 DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+[2025-03-28 15:38:55 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-03-28 15:38:55 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-03-28 15:38:55 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 4ms reading results.
+[2025-03-28 15:38:55 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-03-28 15:38:55 INF] No migrations were applied. The database is already up to date.
+[2025-03-28 15:38:55 INF] ✅ Database migrated successfully.
+[2025-03-28 15:38:55 DBG] 'ApplicationDbContext' disposed.
+[2025-03-28 15:38:55 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-03-28 15:38:55 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-03-28 15:38:56 DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2025-03-28 15:38:56 DBG] Hosting starting
+[2025-03-28 15:38:56 INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-03-28 15:38:56 DBG] Reading data from file 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys\key-b0dc3220-157c-404c-96c0-8a3a78b4d612.xml'.
+[2025-03-28 15:38:56 DBG] Found key {b0dc3220-157c-404c-96c0-8a3a78b4d612}.
+[2025-03-28 15:38:56 DBG] Considering key {b0dc3220-157c-404c-96c0-8a3a78b4d612} with expiration date 2025-04-27 08:33:18Z as default key.
+[2025-03-28 15:38:56 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-03-28 15:38:56 DBG] Decrypting secret element using Windows DPAPI.
+[2025-03-28 15:38:56 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-03-28 15:38:56 DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2025-03-28 15:38:56 DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2025-03-28 15:38:56 DBG] Using key {b0dc3220-157c-404c-96c0-8a3a78b4d612} as the default key.
+[2025-03-28 15:38:56 DBG] Key ring with default key {b0dc3220-157c-404c-96c0-8a3a78b4d612} was loaded during application startup.
+[2025-03-28 15:38:56 INF] Now listening on: http://localhost:5215
+[2025-03-28 15:38:56 DBG] Loaded hosting startup assembly middleware_demo
+[2025-03-28 15:38:56 INF] Application started. Press Ctrl+C to shut down.
+[2025-03-28 15:38:56 INF] Hosting environment: Development
+[2025-03-28 15:38:56 INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+[2025-03-28 15:38:56 DBG] Hosting started
+[2025-03-28 15:39:20 DBG] Connection id "0HNBDS2DQ0R8Q" accepted.
+[2025-03-28 15:39:20 DBG] Connection id "0HNBDS2DQ0R8Q" started.
+[2025-03-28 15:39:20 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.html - null null
+[2025-03-28 15:39:20 DBG] Wildcard detected, all requests with hosts will be allowed.
+[2025-03-28 15:39:20 DBG] No candidates found for the request path '/swagger/index.html'
+[2025-03-28 15:39:20 DBG] Request did not match any endpoints
+[2025-03-28 15:39:20 INF] ➡️ Incoming Request: GET /swagger/index.html from ::1
+[2025-03-28 15:39:21 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-03-28 15:39:21 INF]  Response Status: 200, Time Taken: 372 ms
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8Q" completed keep alive response.
+[2025-03-28 15:39:21 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.html - 200 null text/html;charset=utf-8 453.7805ms
+[2025-03-28 15:39:21 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/swagger-ui.css - null null
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8R" accepted.
+[2025-03-28 15:39:21 DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8R" started.
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8S" accepted.
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8S" started.
+[2025-03-28 15:39:21 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.css - null null
+[2025-03-28 15:39:21 DBG] Request did not match any endpoints
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8T" accepted.
+[2025-03-28 15:39:21 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/swagger-ui-bundle.js - null null
+[2025-03-28 15:39:21 DBG] No candidates found for the request path '/swagger/index.css'
+[2025-03-28 15:39:21 INF] ➡️ Incoming Request: GET /swagger/swagger-ui.css from ::1
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8T" started.
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8U" accepted.
+[2025-03-28 15:39:21 DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+[2025-03-28 15:39:21 DBG] Request did not match any endpoints
+[2025-03-28 15:39:21 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/swagger-ui-standalone-preset.js - null null
+[2025-03-28 15:39:21 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8U" started.
+[2025-03-28 15:39:21 DBG] Request did not match any endpoints
+[2025-03-28 15:39:21 INF] ➡️ Incoming Request: GET /swagger/index.css from ::1
+[2025-03-28 15:39:21 DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+[2025-03-28 15:39:21 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.js - null null
+[2025-03-28 15:39:21 INF] ➡️ Incoming Request: GET /swagger/swagger-ui-bundle.js from ::1
+[2025-03-28 15:39:21 DBG] Request did not match any endpoints
+[2025-03-28 15:39:21 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-03-28 15:39:21 INF] The file /swagger-ui.css was not modified
+[2025-03-28 15:39:21 DBG] No candidates found for the request path '/swagger/index.js'
+[2025-03-28 15:39:21 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-03-28 15:39:21 INF] ➡️ Incoming Request: GET /swagger/swagger-ui-standalone-preset.js from ::1
+[2025-03-28 15:39:21 INF] The file /index.css was not modified
+[2025-03-28 15:39:21 DBG] Request did not match any endpoints
+[2025-03-28 15:39:21 INF] The file /swagger-ui-bundle.js was not modified
+[2025-03-28 15:39:21 DBG] Handled. Status code: 304 File: /swagger-ui.css
+[2025-03-28 15:39:21 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-03-28 15:39:21 DBG] Handled. Status code: 304 File: /index.css
+[2025-03-28 15:39:21 INF] ➡️ Incoming Request: GET /swagger/index.js from ::1
+[2025-03-28 15:39:21 DBG] Handled. Status code: 304 File: /swagger-ui-bundle.js
+[2025-03-28 15:39:21 INF]  Response Status: 304, Time Taken: 68 ms
+[2025-03-28 15:39:21 INF] The file /swagger-ui-standalone-preset.js was not modified
+[2025-03-28 15:39:21 INF]  Response Status: 304, Time Taken: 52 ms
+[2025-03-28 15:39:21 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-03-28 15:39:21 INF]  Response Status: 304, Time Taken: 48 ms
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8Q" completed keep alive response.
+[2025-03-28 15:39:21 DBG] Handled. Status code: 304 File: /swagger-ui-standalone-preset.js
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8R" completed keep alive response.
+[2025-03-28 15:39:21 INF]  Response Status: 200, Time Taken: 26 ms
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8S" completed keep alive response.
+[2025-03-28 15:39:21 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/swagger-ui.css - 304 null text/css 122.3892ms
+[2025-03-28 15:39:21 INF]  Response Status: 304, Time Taken: 53 ms
+[2025-03-28 15:39:21 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.css - 304 null text/css 111.2213ms
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8U" completed keep alive response.
+[2025-03-28 15:39:21 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/swagger-ui-bundle.js - 304 null text/javascript 110.463ms
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8T" completed keep alive response.
+[2025-03-28 15:39:21 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.js - 200 null application/javascript;charset=utf-8 168.9748ms
+[2025-03-28 15:39:21 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 190.1252ms
+[2025-03-28 15:39:21 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - null null
+[2025-03-28 15:39:21 DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+[2025-03-28 15:39:21 DBG] Request did not match any endpoints
+[2025-03-28 15:39:21 INF] ➡️ Incoming Request: GET /swagger/v1/swagger.json from ::1
+[2025-03-28 15:39:21 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-03-28 15:39:21 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/favicon-32x32.png - null null
+[2025-03-28 15:39:21 DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+[2025-03-28 15:39:21 DBG] Request did not match any endpoints
+[2025-03-28 15:39:21 INF] ➡️ Incoming Request: GET /swagger/favicon-32x32.png from ::1
+[2025-03-28 15:39:21 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-03-28 15:39:21 INF] The file /favicon-32x32.png was not modified
+[2025-03-28 15:39:21 DBG] Handled. Status code: 304 File: /favicon-32x32.png
+[2025-03-28 15:39:21 INF]  Response Status: 304, Time Taken: 10 ms
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8U" completed keep alive response.
+[2025-03-28 15:39:21 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/favicon-32x32.png - 304 null image/png 28.0002ms
+[2025-03-28 15:39:21 INF]  Response Status: 200, Time Taken: 287 ms
+[2025-03-28 15:39:21 DBG] Connection id "0HNBDS2DQ0R8T" completed keep alive response.
+[2025-03-28 15:39:21 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 300.0861ms
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8U" disconnecting.
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8S" disconnecting.
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8Q" disconnecting.
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8R" disconnecting.
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8T" disconnecting.
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8U" stopped.
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8S" stopped.
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8Q" stopped.
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8R" stopped.
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8T" stopped.
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8U" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8S" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8R" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2025-03-28 15:41:33 DBG] Connection id "0HNBDS2DQ0R8T" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2025-03-28 17:35:38 INF] Application is shutting down...
+[2025-03-28 17:35:38 DBG] Hosting stopping
+[2025-03-28 17:35:38 DBG] Hosting stopped

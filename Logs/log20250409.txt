@@ -1,0 +1,1280 @@
+[2025-04-09 11:06:19 INF] 🚀 Application is starting...
+[2025-04-09 11:06:20 DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+[2025-04-09 11:06:20 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-04-09 11:06:20 DBG] Creating DbConnection.
+[2025-04-09 11:06:20 DBG] Created DbConnection. (3ms).
+[2025-04-09 11:06:20 DBG] Migrating using database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:20 DBG] Creating DbConnection.
+[2025-04-09 11:06:20 DBG] Created DbConnection. (0ms).
+[2025-04-09 11:06:20 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-04-09 11:06:20 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Disposed connection to database '' on server '127.0.0.1' (0ms).
+[2025-04-09 11:06:21 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-04-09 11:06:21 DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+[2025-04-09 11:06:21 DBG] Initialized DbCommand for 'ExecuteScalar' (9ms).
+[2025-04-09 11:06:21 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 11:06:21 INF] Executed DbCommand (76ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 11:06:21 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (2ms).
+[2025-04-09 11:06:21 DBG] Creating DbConnection.
+[2025-04-09 11:06:21 DBG] Created DbConnection. (0ms).
+[2025-04-09 11:06:21 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Disposed connection to database '' on server '127.0.0.1' (0ms).
+[2025-04-09 11:06:21 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-04-09 11:06:21 DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+[2025-04-09 11:06:21 DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+[2025-04-09 11:06:21 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 11:06:21 INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 11:06:21 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:06:21 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:06:21 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:06:21 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:06:21 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-04-09 11:06:21 INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-04-09 11:06:21 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 1ms reading results.
+[2025-04-09 11:06:21 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:06:21 INF] No migrations were applied. The database is already up to date.
+[2025-04-09 11:06:21 INF] ✅ Database migrated successfully.
+[2025-04-09 11:06:21 DBG] 'ApplicationDbContext' disposed.
+[2025-04-09 11:06:21 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:06:21 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:06:21 DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2025-04-09 11:06:21 DBG] Hosting starting
+[2025-04-09 11:06:21 INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-09 11:06:21 DBG] Reading data from file 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys\key-b0dc3220-157c-404c-96c0-8a3a78b4d612.xml'.
+[2025-04-09 11:06:21 DBG] Found key {b0dc3220-157c-404c-96c0-8a3a78b4d612}.
+[2025-04-09 11:06:21 DBG] Considering key {b0dc3220-157c-404c-96c0-8a3a78b4d612} with expiration date 2025-04-27 08:33:18Z as default key.
+[2025-04-09 11:06:21 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-04-09 11:06:21 DBG] Decrypting secret element using Windows DPAPI.
+[2025-04-09 11:06:21 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-04-09 11:06:21 DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2025-04-09 11:06:21 DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2025-04-09 11:06:21 DBG] Using key {b0dc3220-157c-404c-96c0-8a3a78b4d612} as the default key.
+[2025-04-09 11:06:21 DBG] Key ring with default key {b0dc3220-157c-404c-96c0-8a3a78b4d612} was loaded during application startup.
+[2025-04-09 11:06:21 INF] Now listening on: http://localhost:5215
+[2025-04-09 11:06:21 DBG] Loaded hosting startup assembly middleware_demo
+[2025-04-09 11:06:21 INF] Application started. Press Ctrl+C to shut down.
+[2025-04-09 11:06:21 INF] Hosting environment: Development
+[2025-04-09 11:06:21 INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+[2025-04-09 11:06:21 DBG] Hosting started
+[2025-04-09 11:06:21 DBG] Connection id "0HNBN51QVEGD2" accepted.
+[2025-04-09 11:06:21 DBG] Connection id "0HNBN51QVEGD2" started.
+[2025-04-09 11:06:21 DBG] Connection id "0HNBN51QVEGD3" accepted.
+[2025-04-09 11:06:21 DBG] Connection id "0HNBN51QVEGD3" started.
+[2025-04-09 11:06:22 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.html - null null
+[2025-04-09 11:06:22 DBG] Wildcard detected, all requests with hosts will be allowed.
+[2025-04-09 11:06:22 DBG] No candidates found for the request path '/swagger/index.html'
+[2025-04-09 11:06:22 DBG] Request did not match any endpoints
+[2025-04-09 11:06:22 INF] ➡️ Incoming Request: GET /swagger/index.html from ::1
+[2025-04-09 11:06:22 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-04-09 11:06:22 INF]  Response Status: 200, Time Taken: 296 ms
+[2025-04-09 11:06:22 DBG] Connection id "0HNBN51QVEGD2" completed keep alive response.
+[2025-04-09 11:06:22 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.html - 200 null text/html;charset=utf-8 384.7088ms
+[2025-04-09 11:06:22 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.js - null null
+[2025-04-09 11:06:22 DBG] No candidates found for the request path '/swagger/index.js'
+[2025-04-09 11:06:22 DBG] Request did not match any endpoints
+[2025-04-09 11:06:22 INF] ➡️ Incoming Request: GET /swagger/index.js from ::1
+[2025-04-09 11:06:22 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-04-09 11:06:22 INF]  Response Status: 200, Time Taken: 2 ms
+[2025-04-09 11:06:22 DBG] Connection id "0HNBN51QVEGD2" completed keep alive response.
+[2025-04-09 11:06:22 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.js - 200 null application/javascript;charset=utf-8 4.3551ms
+[2025-04-09 11:06:22 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - null null
+[2025-04-09 11:06:22 DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+[2025-04-09 11:06:22 DBG] Request did not match any endpoints
+[2025-04-09 11:06:22 INF] ➡️ Incoming Request: GET /swagger/v1/swagger.json from ::1
+[2025-04-09 11:06:22 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-04-09 11:06:22 INF]  Response Status: 200, Time Taken: 146 ms
+[2025-04-09 11:06:22 DBG] Connection id "0HNBN51QVEGD2" completed keep alive response.
+[2025-04-09 11:06:22 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 175.4363ms
+[2025-04-09 11:07:34 DBG] Connection id "0HNBN51QVEGD3" received FIN.
+[2025-04-09 11:07:34 INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/register?city=Ahmedabad&pincode=382424&mobileNumber=6356892109 - application/json-patch+json 147
+[2025-04-09 11:07:34 DBG] Connection id "0HNBN51QVEGD3" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2025-04-09 11:07:34 DBG] Connection id "0HNBN51QVEGD3" disconnecting.
+[2025-04-09 11:07:34 DBG] Connection id "0HNBN51QVEGD3" stopped.
+[2025-04-09 11:07:34 DBG] 1 candidate(s) found for the request path '/api/auth/register'
+[2025-04-09 11:07:34 DBG] Endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)' with route pattern 'api/auth/register' is valid for the request path '/api/auth/register'
+[2025-04-09 11:07:34 DBG] Request matched endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+[2025-04-09 11:07:34 DBG] The request has an origin header: 'http://localhost:5215'.
+[2025-04-09 11:07:34 INF] CORS policy execution successful.
+[2025-04-09 11:07:34 INF] ➡️ Incoming Request: POST /api/auth/register from ::1
+[2025-04-09 11:07:34 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-04-09 11:07:34 DBG] Static files was skipped as the request already matched an endpoint.
+[2025-04-09 11:07:34 INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+[2025-04-09 11:07:34 INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiddlewareDemo.Models.RegisterUserModel, System.String, System.String, System.String) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+[2025-04-09 11:07:34 DBG] Execution plan of authorization filters (in the following order): ["None"]
+[2025-04-09 11:07:34 DBG] Execution plan of resource filters (in the following order): ["None"]
+[2025-04-09 11:07:34 DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[2025-04-09 11:07:34 DBG] Execution plan of exception filters (in the following order): ["None"]
+[2025-04-09 11:07:34 DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2025-04-09 11:07:34 DBG] Executing controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:07:34 DBG] Executed controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:07:34 DBG] Attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel' ...
+[2025-04-09 11:07:34 DBG] Attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel' using the name '' in request data ...
+[2025-04-09 11:07:34 DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+[2025-04-09 11:07:34 DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+[2025-04-09 11:07:34 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:00000004": started reading request body.
+[2025-04-09 11:07:34 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:00000004": done reading request body.
+[2025-04-09 11:07:34 DBG] Done attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel'.
+[2025-04-09 11:07:34 DBG] Done attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel'.
+[2025-04-09 11:07:34 DBG] Attempting to validate the bound parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel' ...
+[2025-04-09 11:07:34 DBG] Done attempting to validate the bound parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel'.
+[2025-04-09 11:07:34 DBG] Attempting to bind parameter 'city' of type 'System.String' ...
+[2025-04-09 11:07:34 DBG] Attempting to bind parameter 'city' of type 'System.String' using the name 'city' in request data ...
+[2025-04-09 11:07:34 DBG] Done attempting to bind parameter 'city' of type 'System.String'.
+[2025-04-09 11:07:34 DBG] Done attempting to bind parameter 'city' of type 'System.String'.
+[2025-04-09 11:07:34 DBG] Attempting to validate the bound parameter 'city' of type 'System.String' ...
+[2025-04-09 11:07:34 DBG] Done attempting to validate the bound parameter 'city' of type 'System.String'.
+[2025-04-09 11:07:34 DBG] Attempting to bind parameter 'pincode' of type 'System.String' ...
+[2025-04-09 11:07:34 DBG] Attempting to bind parameter 'pincode' of type 'System.String' using the name 'pincode' in request data ...
+[2025-04-09 11:07:34 DBG] Done attempting to bind parameter 'pincode' of type 'System.String'.
+[2025-04-09 11:07:34 DBG] Done attempting to bind parameter 'pincode' of type 'System.String'.
+[2025-04-09 11:07:34 DBG] Attempting to validate the bound parameter 'pincode' of type 'System.String' ...
+[2025-04-09 11:07:34 DBG] Done attempting to validate the bound parameter 'pincode' of type 'System.String'.
+[2025-04-09 11:07:34 DBG] Attempting to bind parameter 'mobileNumber' of type 'System.String' ...
+[2025-04-09 11:07:34 DBG] Attempting to bind parameter 'mobileNumber' of type 'System.String' using the name 'mobileNumber' in request data ...
+[2025-04-09 11:07:34 DBG] Done attempting to bind parameter 'mobileNumber' of type 'System.String'.
+[2025-04-09 11:07:34 DBG] Done attempting to bind parameter 'mobileNumber' of type 'System.String'.
+[2025-04-09 11:07:34 DBG] Attempting to validate the bound parameter 'mobileNumber' of type 'System.String' ...
+[2025-04-09 11:07:34 DBG] Done attempting to validate the bound parameter 'mobileNumber' of type 'System.String'.
+[2025-04-09 11:07:34 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-04-09 11:07:34 DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(u => u.Email == __userModel_Email_0)'
+[2025-04-09 11:07:35 DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Users AS u
+                WHERE u.Email == @__userModel_Email_0)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        MiddlewareDemo.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+[2025-04-09 11:07:35 DBG] Creating DbConnection.
+[2025-04-09 11:07:35 DBG] Created DbConnection. (0ms).
+[2025-04-09 11:07:35 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:35 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:35 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:07:35 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:07:35 DBG] Initialized DbCommand for 'ExecuteReader' (22ms).
+[2025-04-09 11:07:35 DBG] Executing DbCommand [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Users` AS `u`
+    WHERE `u`.`Email` = @__userModel_Email_0)
+[2025-04-09 11:07:35 INF] Executed DbCommand (109ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Users` AS `u`
+    WHERE `u`.`Email` = @__userModel_Email_0)
+[2025-04-09 11:07:35 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:35 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 13ms reading results.
+[2025-04-09 11:07:35 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:35 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-04-09 11:07:36 DBG] 'ApplicationDbContext' generated a temporary value for the property 'User.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:07:36 DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:07:36 DBG] SaveChanges starting for 'ApplicationDbContext'.
+[2025-04-09 11:07:36 DBG] DetectChanges starting for 'ApplicationDbContext'.
+[2025-04-09 11:07:36 DBG] DetectChanges completed for 'ApplicationDbContext'.
+[2025-04-09 11:07:36 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:36 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:36 DBG] Beginning transaction with isolation level 'Unspecified'.
+[2025-04-09 11:07:36 DBG] Began transaction with isolation level 'Unspecified'.
+[2025-04-09 11:07:36 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:07:36 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:07:36 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:07:36 DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 255), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`CreatedOn`, `Email`, `FirstName`, `LastName`, `LoginCount`, `PasswordHash`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+[2025-04-09 11:07:36 INF] Executed DbCommand (27ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 255), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`CreatedOn`, `Email`, `FirstName`, `LastName`, `LoginCount`, `PasswordHash`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+[2025-04-09 11:07:36 DBG] The foreign key property 'User.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[2025-04-09 11:07:36 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:36 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 33ms reading results.
+[2025-04-09 11:07:36 DBG] Committing transaction.
+[2025-04-09 11:07:36 DBG] Committed transaction.
+[2025-04-09 11:07:36 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:36 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:07:36 DBG] Disposing transaction.
+[2025-04-09 11:07:36 DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:07:36 DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+[2025-04-09 11:07:36 DBG] 'ApplicationDbContext' generated a temporary value for the property 'UserDetail.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:07:36 DBG] The navigation 'UserDetail.User' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:07:36 DBG] Context 'ApplicationDbContext' started tracking 'UserDetail' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:07:36 DBG] SaveChanges starting for 'ApplicationDbContext'.
+[2025-04-09 11:07:36 DBG] DetectChanges starting for 'ApplicationDbContext'.
+[2025-04-09 11:07:36 DBG] DetectChanges completed for 'ApplicationDbContext'.
+[2025-04-09 11:07:36 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:36 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:36 DBG] Beginning transaction with isolation level 'Unspecified'.
+[2025-04-09 11:07:36 DBG] Began transaction with isolation level 'Unspecified'.
+[2025-04-09 11:07:36 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:07:36 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:07:36 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:07:36 DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `UserDetails` (`City`, `LastLoginUser`, `MobileNumber`, `Pincode`, `UserId`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `Id`
+FROM `UserDetails`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+[2025-04-09 11:07:36 INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `UserDetails` (`City`, `LastLoginUser`, `MobileNumber`, `Pincode`, `UserId`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `Id`
+FROM `UserDetails`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+[2025-04-09 11:07:36 DBG] The foreign key property 'UserDetail.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[2025-04-09 11:07:36 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:36 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 3ms reading results.
+[2025-04-09 11:07:36 DBG] Committing transaction.
+[2025-04-09 11:07:36 DBG] Committed transaction.
+[2025-04-09 11:07:36 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:36 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:07:36 DBG] Disposing transaction.
+[2025-04-09 11:07:36 DBG] An entity of type 'UserDetail' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:07:36 DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+[2025-04-09 11:07:36 INF] New user registered: abcd@example.com
+[2025-04-09 11:07:36 INF] User registered successfully: abcd@example.com
+[2025-04-09 11:07:36 DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+[2025-04-09 11:07:36 DBG] No information found on request to perform content negotiation.
+[2025-04-09 11:07:36 DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2025-04-09 11:07:36 DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+[2025-04-09 11:07:36 DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+[2025-04-09 11:07:36 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-04-09 11:07:36 INF] Executed action MiddlewareDemo.Controllers.AuthController.Register (middleware_demo) in 2384.0113ms
+[2025-04-09 11:07:36 INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+[2025-04-09 11:07:36 INF]  Response Status: 200, Time Taken: 2480 ms
+[2025-04-09 11:07:36 DBG] Connection id "0HNBN51QVEGD2" completed keep alive response.
+[2025-04-09 11:07:36 DBG] 'ApplicationDbContext' disposed.
+[2025-04-09 11:07:36 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:36 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-04-09 11:07:36 INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/register?city=Ahmedabad&pincode=382424&mobileNumber=6356892109 - 200 60 application/json; charset=utf-8 2532.8698ms
+[2025-04-09 11:07:57 INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 61
+[2025-04-09 11:07:57 DBG] 1 candidate(s) found for the request path '/api/auth/login'
+[2025-04-09 11:07:57 DBG] Endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)' with route pattern 'api/auth/login' is valid for the request path '/api/auth/login'
+[2025-04-09 11:07:57 DBG] Request matched endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+[2025-04-09 11:07:57 DBG] The request has an origin header: 'http://localhost:5215'.
+[2025-04-09 11:07:57 INF] CORS policy execution successful.
+[2025-04-09 11:07:57 INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+[2025-04-09 11:07:57 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-04-09 11:07:57 DBG] Static files was skipped as the request already matched an endpoint.
+[2025-04-09 11:07:57 INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+[2025-04-09 11:07:57 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+[2025-04-09 11:07:57 DBG] Execution plan of authorization filters (in the following order): ["None"]
+[2025-04-09 11:07:57 DBG] Execution plan of resource filters (in the following order): ["None"]
+[2025-04-09 11:07:57 DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[2025-04-09 11:07:57 DBG] Execution plan of exception filters (in the following order): ["None"]
+[2025-04-09 11:07:57 DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2025-04-09 11:07:57 DBG] Executing controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:07:57 DBG] Executed controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:07:57 DBG] Attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel' ...
+[2025-04-09 11:07:57 DBG] Attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel' using the name '' in request data ...
+[2025-04-09 11:07:57 DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+[2025-04-09 11:07:57 DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+[2025-04-09 11:07:57 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:00000005": started reading request body.
+[2025-04-09 11:07:57 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:00000005": done reading request body.
+[2025-04-09 11:07:57 DBG] Done attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel'.
+[2025-04-09 11:07:57 DBG] Done attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel'.
+[2025-04-09 11:07:57 DBG] Attempting to validate the bound parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel' ...
+[2025-04-09 11:07:57 DBG] Done attempting to validate the bound parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel'.
+[2025-04-09 11:07:57 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-04-09 11:07:57 DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.Email == __userModel_Email_0)'
+[2025-04-09 11:07:57 DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedOn (DateTime) Required, 1], [Property: User.Email (string) Required Index, 2], [Property: User.FirstName (string) Required, 3], [Property: User.LastName (string) Required, 4], [Property: User.LoginCount (int) Required, 5], [Property: User.PasswordHash (string) Required, 6] }
+            SELECT TOP(1) u.Id, u.CreatedOn, u.Email, u.FirstName, u.LastName, u.LoginCount, u.PasswordHash
+            FROM Users AS u
+            WHERE u.Email == @__userModel_Email_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        MiddlewareDemo.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+[2025-04-09 11:07:57 DBG] Creating DbConnection.
+[2025-04-09 11:07:57 DBG] Created DbConnection. (0ms).
+[2025-04-09 11:07:57 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:57 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:58 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:07:58 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:07:58 DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+[2025-04-09 11:07:58 DBG] Executing DbCommand [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+[2025-04-09 11:07:58 INF] Executed DbCommand (6ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+[2025-04-09 11:07:58 DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:07:58 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:58 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 10ms reading results.
+[2025-04-09 11:07:58 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:58 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:07:58 DBG] SaveChanges starting for 'ApplicationDbContext'.
+[2025-04-09 11:07:58 DBG] DetectChanges starting for 'ApplicationDbContext'.
+[2025-04-09 11:07:58 DBG] The unchanged property 'User.LoginCount' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[2025-04-09 11:07:58 DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:07:58 DBG] DetectChanges completed for 'ApplicationDbContext'.
+[2025-04-09 11:07:58 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:58 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:58 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:07:58 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:07:58 DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+[2025-04-09 11:07:58 DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+[2025-04-09 11:07:58 INF] Executed DbCommand (18ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+[2025-04-09 11:07:58 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:58 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 3ms reading results.
+[2025-04-09 11:07:58 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:58 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:07:58 DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:07:58 DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+[2025-04-09 11:07:58 INF] User logged in: abcd@example.com
+[2025-04-09 11:07:58 INF] User logged in: abcd@example.com
+[2025-04-09 11:07:58 DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+[2025-04-09 11:07:58 DBG] No information found on request to perform content negotiation.
+[2025-04-09 11:07:58 DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2025-04-09 11:07:58 DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+[2025-04-09 11:07:58 DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+[2025-04-09 11:07:58 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-04-09 11:07:58 INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 976.0322ms
+[2025-04-09 11:07:58 INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+[2025-04-09 11:07:58 INF]  Response Status: 200, Time Taken: 987 ms
+[2025-04-09 11:07:58 DBG] Connection id "0HNBN51QVEGD2" completed keep alive response.
+[2025-04-09 11:07:58 DBG] 'ApplicationDbContext' disposed.
+[2025-04-09 11:07:58 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:07:58 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:07:58 INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 309 application/json; charset=utf-8 991.4904ms
+[2025-04-09 11:08:22 INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+[2025-04-09 11:08:22 DBG] 1 candidate(s) found for the request path '/api/auth/users'
+[2025-04-09 11:08:22 DBG] Endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)' with route pattern 'api/auth/users' is valid for the request path '/api/auth/users'
+[2025-04-09 11:08:22 DBG] Request matched endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+[2025-04-09 11:08:22 INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+[2025-04-09 11:08:22 DBG] Successfully validated the token.
+[2025-04-09 11:08:22 DBG] AuthenticationScheme: Bearer was successfully authenticated.
+[2025-04-09 11:08:22 DBG] Authorization was successful.
+[2025-04-09 11:08:23 DBG] Static files was skipped as the request already matched an endpoint.
+[2025-04-09 11:08:23 INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+[2025-04-09 11:08:23 INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+[2025-04-09 11:08:23 DBG] Execution plan of authorization filters (in the following order): ["None"]
+[2025-04-09 11:08:23 DBG] Execution plan of resource filters (in the following order): ["None"]
+[2025-04-09 11:08:23 DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[2025-04-09 11:08:23 DBG] Execution plan of exception filters (in the following order): ["None"]
+[2025-04-09 11:08:23 DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2025-04-09 11:08:23 DBG] Executing controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:08:23 DBG] Executed controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:08:23 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-04-09 11:08:23 DBG] Compiling query expression: 
+'DbSet<User>()'
+[2025-04-09 11:08:23 DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedOn (DateTime) Required, 1], [Property: User.Email (string) Required Index, 2], [Property: User.FirstName (string) Required, 3], [Property: User.LastName (string) Required, 4], [Property: User.LoginCount (int) Required, 5], [Property: User.PasswordHash (string) Required, 6] }
+        SELECT u.Id, u.CreatedOn, u.Email, u.FirstName, u.LastName, u.LoginCount, u.PasswordHash
+        FROM Users AS u), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    MiddlewareDemo.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+[2025-04-09 11:08:23 DBG] Creating DbConnection.
+[2025-04-09 11:08:23 DBG] Created DbConnection. (0ms).
+[2025-04-09 11:08:23 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:23 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:23 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:08:23 DBG] Created DbCommand for 'ExecuteReader' (2ms).
+[2025-04-09 11:08:23 DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+[2025-04-09 11:08:23 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+[2025-04-09 11:08:23 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+[2025-04-09 11:08:23 DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:08:23 DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:08:23 DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:08:23 DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:08:23 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:23 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 17ms reading results.
+[2025-04-09 11:08:23 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:23 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:08:23 DBG] Compiling query expression: 
+'DbSet<UserDetail>()'
+[2025-04-09 11:08:23 DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<UserDetail>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: UserDetail.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserDetail.City (string) Required, 1], [Property: UserDetail.LastLoginUser (DateTime) Required, 2], [Property: UserDetail.MobileNumber (string) Required, 3], [Property: UserDetail.Pincode (string) Required, 4], [Property: UserDetail.UserId (int) Required FK Index, 5] }
+        SELECT u.Id, u.City, u.LastLoginUser, u.MobileNumber, u.Pincode, u.UserId
+        FROM UserDetails AS u), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UserDetail>, 
+    MiddlewareDemo.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+[2025-04-09 11:08:23 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:23 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:23 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:08:23 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:08:23 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:08:23 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`City`, `u`.`LastLoginUser`, `u`.`MobileNumber`, `u`.`Pincode`, `u`.`UserId`
+FROM `UserDetails` AS `u`
+[2025-04-09 11:08:23 INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`City`, `u`.`LastLoginUser`, `u`.`MobileNumber`, `u`.`Pincode`, `u`.`UserId`
+FROM `UserDetails` AS `u`
+[2025-04-09 11:08:23 DBG] Context 'ApplicationDbContext' started tracking 'UserDetail' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:08:23 DBG] Context 'ApplicationDbContext' started tracking 'UserDetail' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:08:23 DBG] Context 'ApplicationDbContext' started tracking 'UserDetail' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:08:23 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:23 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 3ms reading results.
+[2025-04-09 11:08:23 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:23 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:08:23 DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+[2025-04-09 11:08:23 DBG] No information found on request to perform content negotiation.
+[2025-04-09 11:08:23 DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2025-04-09 11:08:23 DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+[2025-04-09 11:08:23 DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+[2025-04-09 11:08:23 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-04-09 11:08:23 INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 111.8271ms
+[2025-04-09 11:08:23 INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+[2025-04-09 11:08:23 INF]  Response Status: 200, Time Taken: 222 ms
+[2025-04-09 11:08:23 DBG] Connection id "0HNBN51QVEGD2" completed keep alive response.
+[2025-04-09 11:08:23 DBG] 'ApplicationDbContext' disposed.
+[2025-04-09 11:08:23 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:23 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:08:23 INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 814 application/json; charset=utf-8 231.5235ms
+[2025-04-09 11:08:32 INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/user/4 - null null
+[2025-04-09 11:08:32 DBG] 1 candidate(s) found for the request path '/api/auth/user/4'
+[2025-04-09 11:08:32 DBG] Endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)' with route pattern 'api/auth/user/{id}' is valid for the request path '/api/auth/user/4'
+[2025-04-09 11:08:32 DBG] Request matched endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+[2025-04-09 11:08:32 INF] ➡️ Incoming Request: GET /api/auth/user/4 from ::1
+[2025-04-09 11:08:32 DBG] Successfully validated the token.
+[2025-04-09 11:08:32 DBG] AuthenticationScheme: Bearer was successfully authenticated.
+[2025-04-09 11:08:32 DBG] Authorization was successful.
+[2025-04-09 11:08:32 DBG] Static files was skipped as the request already matched an endpoint.
+[2025-04-09 11:08:32 INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+[2025-04-09 11:08:32 INF] Route matched with {action = "GetUserById", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+[2025-04-09 11:08:32 DBG] Execution plan of authorization filters (in the following order): ["None"]
+[2025-04-09 11:08:32 DBG] Execution plan of resource filters (in the following order): ["None"]
+[2025-04-09 11:08:32 DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[2025-04-09 11:08:32 DBG] Execution plan of exception filters (in the following order): ["None"]
+[2025-04-09 11:08:32 DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2025-04-09 11:08:32 DBG] Executing controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:08:32 DBG] Executed controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:08:32 DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+[2025-04-09 11:08:32 DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+[2025-04-09 11:08:32 DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+[2025-04-09 11:08:32 DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+[2025-04-09 11:08:32 DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+[2025-04-09 11:08:32 DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+[2025-04-09 11:08:32 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-04-09 11:08:32 DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)'
+[2025-04-09 11:08:32 DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedOn (DateTime) Required, 1], [Property: User.Email (string) Required Index, 2], [Property: User.FirstName (string) Required, 3], [Property: User.LastName (string) Required, 4], [Property: User.LoginCount (int) Required, 5], [Property: User.PasswordHash (string) Required, 6] }
+            SELECT TOP(1) u.Id, u.CreatedOn, u.Email, u.FirstName, u.LastName, u.LoginCount, u.PasswordHash
+            FROM Users AS u
+            WHERE u.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        MiddlewareDemo.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+[2025-04-09 11:08:32 DBG] Creating DbConnection.
+[2025-04-09 11:08:32 DBG] Created DbConnection. (0ms).
+[2025-04-09 11:08:32 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:32 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:32 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:08:32 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:08:32 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:08:32 DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+[2025-04-09 11:08:32 INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+[2025-04-09 11:08:32 DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:08:32 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:32 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 1ms reading results.
+[2025-04-09 11:08:32 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:32 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:08:32 DBG] Compiling query expression: 
+'DbSet<UserDetail>()
+    .FirstOrDefault(ud => ud.UserId == __id_0)'
+[2025-04-09 11:08:32 DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<UserDetail>(
+    asyncEnumerable: new SingleQueryingEnumerable<UserDetail>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: UserDetail.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserDetail.City (string) Required, 1], [Property: UserDetail.LastLoginUser (DateTime) Required, 2], [Property: UserDetail.MobileNumber (string) Required, 3], [Property: UserDetail.Pincode (string) Required, 4], [Property: UserDetail.UserId (int) Required FK Index, 5] }
+            SELECT TOP(1) u.Id, u.City, u.LastLoginUser, u.MobileNumber, u.Pincode, u.UserId
+            FROM UserDetails AS u
+            WHERE u.UserId == @__id_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UserDetail>, 
+        MiddlewareDemo.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+[2025-04-09 11:08:32 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:32 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:32 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:08:32 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:08:32 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:08:32 DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`City`, `u`.`LastLoginUser`, `u`.`MobileNumber`, `u`.`Pincode`, `u`.`UserId`
+FROM `UserDetails` AS `u`
+WHERE `u`.`UserId` = @__id_0
+LIMIT 1
+[2025-04-09 11:08:32 INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`City`, `u`.`LastLoginUser`, `u`.`MobileNumber`, `u`.`Pincode`, `u`.`UserId`
+FROM `UserDetails` AS `u`
+WHERE `u`.`UserId` = @__id_0
+LIMIT 1
+[2025-04-09 11:08:32 DBG] Context 'ApplicationDbContext' started tracking 'UserDetail' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:08:32 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:32 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 1ms reading results.
+[2025-04-09 11:08:32 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:32 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:08:32 DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+[2025-04-09 11:08:32 DBG] No information found on request to perform content negotiation.
+[2025-04-09 11:08:32 DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2025-04-09 11:08:32 DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+[2025-04-09 11:08:32 DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+[2025-04-09 11:08:32 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2025-04-09 11:08:32 INF] Executed action MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo) in 67.2226ms
+[2025-04-09 11:08:32 INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetUserById (middleware_demo)'
+[2025-04-09 11:08:32 INF]  Response Status: 200, Time Taken: 80 ms
+[2025-04-09 11:08:32 DBG] Connection id "0HNBN51QVEGD2" completed keep alive response.
+[2025-04-09 11:08:32 DBG] 'ApplicationDbContext' disposed.
+[2025-04-09 11:08:32 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:32 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:08:32 INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/user/4 - 200 213 application/json; charset=utf-8 81.2375ms
+[2025-04-09 11:08:52 INF] Request starting HTTP/1.1 PATCH http://localhost:5215/api/auth/user/4 - application/json-patch+json 121
+[2025-04-09 11:08:52 DBG] 1 candidate(s) found for the request path '/api/auth/user/4'
+[2025-04-09 11:08:52 DBG] Endpoint 'MiddlewareDemo.Controllers.AuthController.PatchUser (middleware_demo)' with route pattern 'api/auth/user/{id}' is valid for the request path '/api/auth/user/4'
+[2025-04-09 11:08:52 DBG] Request matched endpoint 'MiddlewareDemo.Controllers.AuthController.PatchUser (middleware_demo)'
+[2025-04-09 11:08:52 DBG] The request has an origin header: 'http://localhost:5215'.
+[2025-04-09 11:08:52 INF] CORS policy execution successful.
+[2025-04-09 11:08:52 INF] ➡️ Incoming Request: PATCH /api/auth/user/4 from ::1
+[2025-04-09 11:08:52 DBG] Successfully validated the token.
+[2025-04-09 11:08:52 DBG] AuthenticationScheme: Bearer was successfully authenticated.
+[2025-04-09 11:08:52 DBG] Authorization was successful.
+[2025-04-09 11:08:52 DBG] Static files was skipped as the request already matched an endpoint.
+[2025-04-09 11:08:52 INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.PatchUser (middleware_demo)'
+[2025-04-09 11:08:52 INF] Route matched with {action = "PatchUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PatchUser(Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[MiddlewareDemo.Models.User]) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+[2025-04-09 11:08:52 DBG] Execution plan of authorization filters (in the following order): ["None"]
+[2025-04-09 11:08:52 DBG] Execution plan of resource filters (in the following order): ["None"]
+[2025-04-09 11:08:52 DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[2025-04-09 11:08:52 DBG] Execution plan of exception filters (in the following order): ["None"]
+[2025-04-09 11:08:52 DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2025-04-09 11:08:52 DBG] Executing controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:08:52 DBG] Executed controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:08:52 DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+[2025-04-09 11:08:52 DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+[2025-04-09 11:08:52 DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+[2025-04-09 11:08:52 DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+[2025-04-09 11:08:52 DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+[2025-04-09 11:08:52 DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+[2025-04-09 11:08:52 DBG] Attempting to bind parameter 'patchDoc' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[MiddlewareDemo.Models.User]' ...
+[2025-04-09 11:08:52 DBG] Attempting to bind parameter 'patchDoc' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[MiddlewareDemo.Models.User]' using the name '' in request data ...
+[2025-04-09 11:08:52 DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+[2025-04-09 11:08:52 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:00000008": started reading request body.
+[2025-04-09 11:08:52 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:00000008": done reading request body.
+[2025-04-09 11:08:52 DBG] Done attempting to bind parameter 'patchDoc' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[MiddlewareDemo.Models.User]'.
+[2025-04-09 11:08:52 DBG] Done attempting to bind parameter 'patchDoc' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[MiddlewareDemo.Models.User]'.
+[2025-04-09 11:08:52 DBG] Attempting to validate the bound parameter 'patchDoc' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[MiddlewareDemo.Models.User]' ...
+[2025-04-09 11:08:52 DBG] Done attempting to validate the bound parameter 'patchDoc' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[MiddlewareDemo.Models.User]'.
+[2025-04-09 11:08:52 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-04-09 11:08:52 DBG] Creating DbConnection.
+[2025-04-09 11:08:52 DBG] Created DbConnection. (0ms).
+[2025-04-09 11:08:52 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:52 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:52 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:08:52 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:08:52 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:08:52 DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+[2025-04-09 11:08:52 INF] Executed DbCommand (16ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+[2025-04-09 11:08:52 DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:08:52 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:52 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 0ms reading results.
+[2025-04-09 11:08:52 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:52 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:08:53 INF] Executed action MiddlewareDemo.Controllers.AuthController.PatchUser (middleware_demo) in 299.5574ms
+[2025-04-09 11:08:53 INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.PatchUser (middleware_demo)'
+[2025-04-09 11:08:53 ERR]  Exception caught in RequestLoggingMiddleware: Invalid JsonPatch operation 'string'.
+Microsoft.AspNetCore.JsonPatch.Exceptions.JsonPatchException: Invalid JsonPatch operation 'string'.
+   at Microsoft.AspNetCore.JsonPatch.Operations.Operation`1.Apply(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo)
+   at MiddlewareDemo.Services.AuthService.PatchUser(Int32 id, JsonPatchDocument`1 patchDoc) in C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\Services\AuthService.cs:line 185
+   at MiddlewareDemo.Controllers.AuthController.PatchUser(Int32 id, JsonPatchDocument`1 patchDoc) in C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\Controllers\AuthController.cs:line 115
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at middleware_demo.Middlewares.RequestLoggingMiddleware.Invoke(HttpContext context) in C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\Middlewares\RequestLoggingMiddleware.cs:line 28
+[2025-04-09 11:08:53 ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.JsonPatch.Exceptions.JsonPatchException: Invalid JsonPatch operation 'string'.
+   at Microsoft.AspNetCore.JsonPatch.Operations.Operation`1.Apply(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo)
+   at MiddlewareDemo.Services.AuthService.PatchUser(Int32 id, JsonPatchDocument`1 patchDoc) in C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\Services\AuthService.cs:line 185
+   at MiddlewareDemo.Controllers.AuthController.PatchUser(Int32 id, JsonPatchDocument`1 patchDoc) in C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\Controllers\AuthController.cs:line 115
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at middleware_demo.Middlewares.RequestLoggingMiddleware.Invoke(HttpContext context) in C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\Middlewares\RequestLoggingMiddleware.cs:line 28
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[2025-04-09 11:08:53 DBG] No candidates found for the request path '/error'
+[2025-04-09 11:08:53 DBG] Request did not match any endpoints
+[2025-04-09 11:08:53 DBG] The request has an origin header: 'http://localhost:5215'.
+[2025-04-09 11:08:53 INF] CORS policy execution successful.
+[2025-04-09 11:08:53 INF] ➡️ Incoming Request: PATCH /error from ::1
+[2025-04-09 11:08:53 DBG] AuthenticationScheme: Bearer was successfully authenticated.
+[2025-04-09 11:08:53 DBG] PATCH requests are not supported
+[2025-04-09 11:08:53 INF]  Response Status: 404, Time Taken: 1 ms
+[2025-04-09 11:08:53 ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true.
+ ---> Microsoft.AspNetCore.JsonPatch.Exceptions.JsonPatchException: Invalid JsonPatch operation 'string'.
+   at Microsoft.AspNetCore.JsonPatch.Operations.Operation`1.Apply(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo)
+   at MiddlewareDemo.Services.AuthService.PatchUser(Int32 id, JsonPatchDocument`1 patchDoc) in C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\Services\AuthService.cs:line 185
+   at MiddlewareDemo.Controllers.AuthController.PatchUser(Int32 id, JsonPatchDocument`1 patchDoc) in C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\Controllers\AuthController.cs:line 115
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at middleware_demo.Middlewares.RequestLoggingMiddleware.Invoke(HttpContext context) in C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\Middlewares\RequestLoggingMiddleware.cs:line 28
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-04-09 11:08:53 DBG] Connection id "0HNBN51QVEGD2" completed keep alive response.
+[2025-04-09 11:08:53 DBG] 'ApplicationDbContext' disposed.
+[2025-04-09 11:08:53 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:08:53 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:08:53 INF] Request finished HTTP/1.1 PATCH http://localhost:5215/api/auth/user/4 - 500 null text/plain; charset=utf-8 700.8531ms
+[2025-04-09 11:08:53 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PATCH http://localhost:5215/api/auth/user/4, Response status code: 500
+[2025-04-09 11:10:29 INF] Request starting HTTP/1.1 PUT http://localhost:5215/api/auth/user/4?city=Surat&pincode=389823&mobileNumber=6356892902 - application/json-patch+json 139
+[2025-04-09 11:10:29 DBG] 1 candidate(s) found for the request path '/api/auth/user/4'
+[2025-04-09 11:10:29 DBG] Endpoint 'MiddlewareDemo.Controllers.AuthController.UpdateUser (middleware_demo)' with route pattern 'api/auth/user/{id}' is valid for the request path '/api/auth/user/4'
+[2025-04-09 11:10:29 DBG] Request matched endpoint 'MiddlewareDemo.Controllers.AuthController.UpdateUser (middleware_demo)'
+[2025-04-09 11:10:29 DBG] The request has an origin header: 'http://localhost:5215'.
+[2025-04-09 11:10:29 INF] CORS policy execution successful.
+[2025-04-09 11:10:29 INF] ➡️ Incoming Request: PUT /api/auth/user/4 from ::1
+[2025-04-09 11:10:29 INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '09-04-2025 05:38:58', Current time (UTC): '09-04-2025 05:40:29'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[2025-04-09 11:10:29 INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '09-04-2025 05:38:58', Current time (UTC): '09-04-2025 05:40:29'.
+[2025-04-09 11:10:29 DBG] Policy authentication schemes  did not succeed
+[2025-04-09 11:10:29 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2025-04-09 11:10:29 INF] AuthenticationScheme: Bearer was challenged.
+[2025-04-09 11:10:29 INF]  Response Status: 401, Time Taken: 56 ms
+[2025-04-09 11:10:29 DBG] Connection id "0HNBN51QVEGD2" completed keep alive response.
+[2025-04-09 11:10:29 INF] Request finished HTTP/1.1 PUT http://localhost:5215/api/auth/user/4?city=Surat&pincode=389823&mobileNumber=6356892902 - 401 0 null 66.6196ms
+[2025-04-09 11:10:29 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:00000009": started reading request body.
+[2025-04-09 11:10:29 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:00000009": done reading request body.
+[2025-04-09 11:11:27 INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 61
+[2025-04-09 11:11:27 DBG] 1 candidate(s) found for the request path '/api/auth/login'
+[2025-04-09 11:11:27 DBG] Endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)' with route pattern 'api/auth/login' is valid for the request path '/api/auth/login'
+[2025-04-09 11:11:27 DBG] Request matched endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+[2025-04-09 11:11:27 DBG] The request has an origin header: 'http://localhost:5215'.
+[2025-04-09 11:11:27 INF] CORS policy execution successful.
+[2025-04-09 11:11:27 INF] ➡️ Incoming Request: POST /api/auth/login from ::1
+[2025-04-09 11:11:27 INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '09-04-2025 05:38:58', Current time (UTC): '09-04-2025 05:41:27'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[2025-04-09 11:11:27 INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '09-04-2025 05:38:58', Current time (UTC): '09-04-2025 05:41:27'.
+[2025-04-09 11:11:27 DBG] Static files was skipped as the request already matched an endpoint.
+[2025-04-09 11:11:27 INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+[2025-04-09 11:11:27 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+[2025-04-09 11:11:27 DBG] Execution plan of authorization filters (in the following order): ["None"]
+[2025-04-09 11:11:27 DBG] Execution plan of resource filters (in the following order): ["None"]
+[2025-04-09 11:11:27 DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[2025-04-09 11:11:27 DBG] Execution plan of exception filters (in the following order): ["None"]
+[2025-04-09 11:11:27 DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2025-04-09 11:11:27 DBG] Executing controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:11:27 DBG] Executed controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:11:27 DBG] Attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel' ...
+[2025-04-09 11:11:27 DBG] Attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel' using the name '' in request data ...
+[2025-04-09 11:11:27 DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+[2025-04-09 11:11:27 DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+[2025-04-09 11:11:27 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:0000000A": started reading request body.
+[2025-04-09 11:11:27 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:0000000A": done reading request body.
+[2025-04-09 11:11:27 DBG] Done attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel'.
+[2025-04-09 11:11:27 DBG] Done attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel'.
+[2025-04-09 11:11:27 DBG] Attempting to validate the bound parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel' ...
+[2025-04-09 11:11:27 DBG] Done attempting to validate the bound parameter 'userModel' of type 'MiddlewareDemo.Models.LoginUserModel'.
+[2025-04-09 11:11:27 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-04-09 11:11:27 DBG] Creating DbConnection.
+[2025-04-09 11:11:27 DBG] Created DbConnection. (0ms).
+[2025-04-09 11:11:27 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:11:27 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:11:27 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:11:27 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:11:27 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:11:27 DBG] Executing DbCommand [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+[2025-04-09 11:11:27 INF] Executed DbCommand (13ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+[2025-04-09 11:11:27 DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:11:27 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:11:27 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 4ms reading results.
+[2025-04-09 11:11:27 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:11:27 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:11:27 DBG] SaveChanges starting for 'ApplicationDbContext'.
+[2025-04-09 11:11:27 DBG] DetectChanges starting for 'ApplicationDbContext'.
+[2025-04-09 11:11:27 DBG] The unchanged property 'User.LoginCount' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[2025-04-09 11:11:27 DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:11:27 DBG] DetectChanges completed for 'ApplicationDbContext'.
+[2025-04-09 11:11:27 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:11:27 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:11:27 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:11:27 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:11:27 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:11:27 DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+[2025-04-09 11:11:27 INF] Executed DbCommand (6ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+[2025-04-09 11:11:27 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:11:27 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 0ms reading results.
+[2025-04-09 11:11:27 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:11:27 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:11:27 DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:11:27 DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+[2025-04-09 11:11:27 INF] User logged in: abcd@example.com
+[2025-04-09 11:11:27 INF] User logged in: abcd@example.com
+[2025-04-09 11:11:27 DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+[2025-04-09 11:11:27 DBG] No information found on request to perform content negotiation.
+[2025-04-09 11:11:27 DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2025-04-09 11:11:27 DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+[2025-04-09 11:11:27 DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+[2025-04-09 11:11:27 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-04-09 11:11:27 INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 383.8499ms
+[2025-04-09 11:11:27 INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+[2025-04-09 11:11:27 INF]  Response Status: 200, Time Taken: 391 ms
+[2025-04-09 11:11:27 DBG] Connection id "0HNBN51QVEGD2" completed keep alive response.
+[2025-04-09 11:11:27 DBG] 'ApplicationDbContext' disposed.
+[2025-04-09 11:11:27 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:11:27 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:11:27 INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 309 application/json; charset=utf-8 400.8674ms
+[2025-04-09 11:12:04 INF] Request starting HTTP/1.1 PUT http://localhost:5215/api/auth/user/4?city=Surat&pincode=389823&mobileNumber=6356892902 - application/json-patch+json 139
+[2025-04-09 11:12:04 DBG] 1 candidate(s) found for the request path '/api/auth/user/4'
+[2025-04-09 11:12:04 DBG] Endpoint 'MiddlewareDemo.Controllers.AuthController.UpdateUser (middleware_demo)' with route pattern 'api/auth/user/{id}' is valid for the request path '/api/auth/user/4'
+[2025-04-09 11:12:04 DBG] Request matched endpoint 'MiddlewareDemo.Controllers.AuthController.UpdateUser (middleware_demo)'
+[2025-04-09 11:12:04 DBG] The request has an origin header: 'http://localhost:5215'.
+[2025-04-09 11:12:04 INF] CORS policy execution successful.
+[2025-04-09 11:12:04 INF] ➡️ Incoming Request: PUT /api/auth/user/4 from ::1
+[2025-04-09 11:12:04 DBG] Successfully validated the token.
+[2025-04-09 11:12:04 DBG] AuthenticationScheme: Bearer was successfully authenticated.
+[2025-04-09 11:12:04 DBG] Authorization was successful.
+[2025-04-09 11:12:04 DBG] Static files was skipped as the request already matched an endpoint.
+[2025-04-09 11:12:04 INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.UpdateUser (middleware_demo)'
+[2025-04-09 11:12:04 INF] Route matched with {action = "UpdateUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateUser(Int32, MiddlewareDemo.Models.RegisterUserModel, System.String, System.String, System.String) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+[2025-04-09 11:12:04 DBG] Execution plan of authorization filters (in the following order): ["None"]
+[2025-04-09 11:12:04 DBG] Execution plan of resource filters (in the following order): ["None"]
+[2025-04-09 11:12:04 DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[2025-04-09 11:12:04 DBG] Execution plan of exception filters (in the following order): ["None"]
+[2025-04-09 11:12:04 DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2025-04-09 11:12:04 DBG] Executing controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:12:04 DBG] Executed controller factory for controller MiddlewareDemo.Controllers.AuthController (middleware_demo)
+[2025-04-09 11:12:04 DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+[2025-04-09 11:12:04 DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+[2025-04-09 11:12:04 DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+[2025-04-09 11:12:04 DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+[2025-04-09 11:12:04 DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+[2025-04-09 11:12:04 DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+[2025-04-09 11:12:04 DBG] Attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel' ...
+[2025-04-09 11:12:04 DBG] Attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel' using the name '' in request data ...
+[2025-04-09 11:12:04 DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+[2025-04-09 11:12:04 DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+[2025-04-09 11:12:04 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:0000000B": started reading request body.
+[2025-04-09 11:12:04 DBG] Connection id "0HNBN51QVEGD2", Request id "0HNBN51QVEGD2:0000000B": done reading request body.
+[2025-04-09 11:12:04 DBG] Done attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel'.
+[2025-04-09 11:12:04 DBG] Done attempting to bind parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel'.
+[2025-04-09 11:12:04 DBG] Attempting to validate the bound parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel' ...
+[2025-04-09 11:12:04 DBG] Done attempting to validate the bound parameter 'userModel' of type 'MiddlewareDemo.Models.RegisterUserModel'.
+[2025-04-09 11:12:04 DBG] Attempting to bind parameter 'city' of type 'System.String' ...
+[2025-04-09 11:12:04 DBG] Attempting to bind parameter 'city' of type 'System.String' using the name 'city' in request data ...
+[2025-04-09 11:12:04 DBG] Done attempting to bind parameter 'city' of type 'System.String'.
+[2025-04-09 11:12:04 DBG] Done attempting to bind parameter 'city' of type 'System.String'.
+[2025-04-09 11:12:04 DBG] Attempting to validate the bound parameter 'city' of type 'System.String' ...
+[2025-04-09 11:12:04 DBG] Done attempting to validate the bound parameter 'city' of type 'System.String'.
+[2025-04-09 11:12:04 DBG] Attempting to bind parameter 'pincode' of type 'System.String' ...
+[2025-04-09 11:12:04 DBG] Attempting to bind parameter 'pincode' of type 'System.String' using the name 'pincode' in request data ...
+[2025-04-09 11:12:04 DBG] Done attempting to bind parameter 'pincode' of type 'System.String'.
+[2025-04-09 11:12:04 DBG] Done attempting to bind parameter 'pincode' of type 'System.String'.
+[2025-04-09 11:12:04 DBG] Attempting to validate the bound parameter 'pincode' of type 'System.String' ...
+[2025-04-09 11:12:04 DBG] Done attempting to validate the bound parameter 'pincode' of type 'System.String'.
+[2025-04-09 11:12:04 DBG] Attempting to bind parameter 'mobileNumber' of type 'System.String' ...
+[2025-04-09 11:12:04 DBG] Attempting to bind parameter 'mobileNumber' of type 'System.String' using the name 'mobileNumber' in request data ...
+[2025-04-09 11:12:04 DBG] Done attempting to bind parameter 'mobileNumber' of type 'System.String'.
+[2025-04-09 11:12:04 DBG] Done attempting to bind parameter 'mobileNumber' of type 'System.String'.
+[2025-04-09 11:12:04 DBG] Attempting to validate the bound parameter 'mobileNumber' of type 'System.String' ...
+[2025-04-09 11:12:04 DBG] Done attempting to validate the bound parameter 'mobileNumber' of type 'System.String'.
+[2025-04-09 11:12:04 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-04-09 11:12:04 DBG] Creating DbConnection.
+[2025-04-09 11:12:04 DBG] Created DbConnection. (0ms).
+[2025-04-09 11:12:04 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:12:04 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:12:04 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:12:04 DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+[2025-04-09 11:12:04 INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedOn`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+[2025-04-09 11:12:04 DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:12:04 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 3ms reading results.
+[2025-04-09 11:12:04 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:12:04 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:12:04 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:12:04 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:12:04 DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`City`, `u`.`LastLoginUser`, `u`.`MobileNumber`, `u`.`Pincode`, `u`.`UserId`
+FROM `UserDetails` AS `u`
+WHERE `u`.`UserId` = @__id_0
+LIMIT 1
+[2025-04-09 11:12:04 INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`City`, `u`.`LastLoginUser`, `u`.`MobileNumber`, `u`.`Pincode`, `u`.`UserId`
+FROM `UserDetails` AS `u`
+WHERE `u`.`UserId` = @__id_0
+LIMIT 1
+[2025-04-09 11:12:04 DBG] Context 'ApplicationDbContext' started tracking 'UserDetail' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:12:04 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 0ms reading results.
+[2025-04-09 11:12:04 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:12:04 DBG] SaveChanges starting for 'ApplicationDbContext'.
+[2025-04-09 11:12:04 DBG] DetectChanges starting for 'ApplicationDbContext'.
+[2025-04-09 11:12:04 DBG] The unchanged property 'User.Email' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[2025-04-09 11:12:04 DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:12:04 DBG] The unchanged property 'User.FirstName' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[2025-04-09 11:12:04 DBG] The unchanged property 'User.LastName' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[2025-04-09 11:12:04 DBG] The unchanged property 'UserDetail.City' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[2025-04-09 11:12:04 DBG] An entity of type 'UserDetail' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:12:04 DBG] The unchanged property 'UserDetail.LastLoginUser' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[2025-04-09 11:12:04 DBG] The unchanged property 'UserDetail.MobileNumber' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[2025-04-09 11:12:04 DBG] The unchanged property 'UserDetail.Pincode' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[2025-04-09 11:12:04 DBG] DetectChanges completed for 'ApplicationDbContext'.
+[2025-04-09 11:12:04 DBG] Executing 2 update commands as a batch.
+[2025-04-09 11:12:04 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] Beginning transaction with isolation level 'Unspecified'.
+[2025-04-09 11:12:04 DBG] Began transaction with isolation level 'Unspecified'.
+[2025-04-09 11:12:04 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 11:12:04 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:12:04 DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 11:12:04 DBG] Executing DbCommand [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p8='?' (DbType = Int32), @p5='?' (Size = 255), @p6='?' (Size = 4000), @p7='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+UPDATE `UserDetails` SET `City` = @p0, `LastLoginUser` = @p1, `MobileNumber` = @p2, `Pincode` = @p3
+WHERE `Id` = @p4;
+SELECT ROW_COUNT();
+
+UPDATE `Users` SET `Email` = @p5, `FirstName` = @p6, `LastName` = @p7
+WHERE `Id` = @p8;
+SELECT ROW_COUNT();
+[2025-04-09 11:12:04 INF] Executed DbCommand (24ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p8='?' (DbType = Int32), @p5='?' (Size = 255), @p6='?' (Size = 4000), @p7='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+UPDATE `UserDetails` SET `City` = @p0, `LastLoginUser` = @p1, `MobileNumber` = @p2, `Pincode` = @p3
+WHERE `Id` = @p4;
+SELECT ROW_COUNT();
+
+UPDATE `Users` SET `Email` = @p5, `FirstName` = @p6, `LastName` = @p7
+WHERE `Id` = @p8;
+SELECT ROW_COUNT();
+[2025-04-09 11:12:04 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 0ms reading results.
+[2025-04-09 11:12:04 DBG] Committing transaction.
+[2025-04-09 11:12:04 DBG] Committed transaction.
+[2025-04-09 11:12:04 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:12:04 DBG] Disposing transaction.
+[2025-04-09 11:12:04 DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:12:04 DBG] An entity of type 'UserDetail' tracked by 'ApplicationDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[2025-04-09 11:12:04 DBG] SaveChanges completed for 'ApplicationDbContext' with 2 entities written to the database.
+[2025-04-09 11:12:04 INF] User updated: {"Id":4,"FirstName":"naman","LastName":"rajput","Email":"naman@example.com","City":"Surat","Pincode":"389823","MobileNumber":"6356892902","LastLoginUser":"2025-04-09T05:42:04.5951492Z","LoginCount":2,"$type":"UserDTO"}
+[2025-04-09 11:12:04 INF] User updated: ID 4
+[2025-04-09 11:12:04 DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+[2025-04-09 11:12:04 DBG] No information found on request to perform content negotiation.
+[2025-04-09 11:12:04 DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2025-04-09 11:12:04 DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+[2025-04-09 11:12:04 DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+[2025-04-09 11:12:04 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-04-09 11:12:04 INF] Executed action MiddlewareDemo.Controllers.AuthController.UpdateUser (middleware_demo) in 104.0025ms
+[2025-04-09 11:12:04 INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.UpdateUser (middleware_demo)'
+[2025-04-09 11:12:04 INF]  Response Status: 200, Time Taken: 117 ms
+[2025-04-09 11:12:04 DBG] Connection id "0HNBN51QVEGD2" completed keep alive response.
+[2025-04-09 11:12:04 DBG] 'ApplicationDbContext' disposed.
+[2025-04-09 11:12:04 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 11:12:04 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 11:12:04 INF] Request finished HTTP/1.1 PUT http://localhost:5215/api/auth/user/4?city=Surat&pincode=389823&mobileNumber=6356892902 - 200 40 application/json; charset=utf-8 121.391ms
+[2025-04-09 11:27:45 DBG] Connection id "0HNBN51QVEGD2" received FIN.
+[2025-04-09 11:27:45 DBG] Connection id "0HNBN51QVEGD4" accepted.
+[2025-04-09 11:27:45 DBG] Connection id "0HNBN51QVEGD2" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2025-04-09 11:27:45 DBG] Connection id "0HNBN51QVEGD2" disconnecting.
+[2025-04-09 11:27:45 DBG] Connection id "0HNBN51QVEGD4" started.
+[2025-04-09 11:27:45 DBG] Connection id "0HNBN51QVEGD2" stopped.
+[2025-04-09 11:27:45 INF] Request starting HTTP/1.1 PUT http://localhost:5215/api/auth/user/4?city=Surat&pincode=389823&mobileNumber=6356892902 - application/json-patch+json 139
+[2025-04-09 11:27:45 DBG] 1 candidate(s) found for the request path '/api/auth/user/4'
+[2025-04-09 11:27:45 DBG] Endpoint 'MiddlewareDemo.Controllers.AuthController.UpdateUser (middleware_demo)' with route pattern 'api/auth/user/{id}' is valid for the request path '/api/auth/user/4'
+[2025-04-09 11:27:45 DBG] Request matched endpoint 'MiddlewareDemo.Controllers.AuthController.UpdateUser (middleware_demo)'
+[2025-04-09 11:27:45 DBG] The request has an origin header: 'http://localhost:5215'.
+[2025-04-09 11:27:45 INF] CORS policy execution successful.
+[2025-04-09 11:27:45 INF] ➡️ Incoming Request: PUT /api/auth/user/4 from ::1
+[2025-04-09 11:27:45 INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '09-04-2025 05:42:27', Current time (UTC): '09-04-2025 05:57:45'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[2025-04-09 11:27:45 INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '09-04-2025 05:42:27', Current time (UTC): '09-04-2025 05:57:45'.
+[2025-04-09 11:27:45 DBG] Policy authentication schemes  did not succeed
+[2025-04-09 11:27:45 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2025-04-09 11:27:45 INF] AuthenticationScheme: Bearer was challenged.
+[2025-04-09 11:27:45 INF]  Response Status: 401, Time Taken: 10 ms
+[2025-04-09 11:27:45 DBG] Connection id "0HNBN51QVEGD4" completed keep alive response.
+[2025-04-09 11:27:45 INF] Request finished HTTP/1.1 PUT http://localhost:5215/api/auth/user/4?city=Surat&pincode=389823&mobileNumber=6356892902 - 401 0 null 14.4266ms
+[2025-04-09 11:27:45 DBG] Connection id "0HNBN51QVEGD4", Request id "0HNBN51QVEGD4:00000001": started reading request body.
+[2025-04-09 11:27:45 DBG] Connection id "0HNBN51QVEGD4", Request id "0HNBN51QVEGD4:00000001": done reading request body.
+[2025-04-09 11:27:56 INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+[2025-04-09 11:27:56 DBG] 1 candidate(s) found for the request path '/api/auth/users'
+[2025-04-09 11:27:56 DBG] Endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)' with route pattern 'api/auth/users' is valid for the request path '/api/auth/users'
+[2025-04-09 11:27:56 DBG] Request matched endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+[2025-04-09 11:27:56 INF] ➡️ Incoming Request: GET /api/auth/users from ::1
+[2025-04-09 11:27:56 INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '09-04-2025 05:42:27', Current time (UTC): '09-04-2025 05:57:56'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[2025-04-09 11:27:56 INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '09-04-2025 05:42:27', Current time (UTC): '09-04-2025 05:57:56'.
+[2025-04-09 11:27:56 DBG] Policy authentication schemes  did not succeed
+[2025-04-09 11:27:56 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2025-04-09 11:27:56 INF] AuthenticationScheme: Bearer was challenged.
+[2025-04-09 11:27:56 INF]  Response Status: 401, Time Taken: 2 ms
+[2025-04-09 11:27:56 DBG] Connection id "0HNBN51QVEGD4" completed keep alive response.
+[2025-04-09 11:27:56 INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 401 0 null 3.1857ms
+[2025-04-09 11:34:49 DBG] Connection id "0HNBN51QVEGD4" received FIN.
+[2025-04-09 11:34:49 DBG] Connection id "0HNBN51QVEGD4" disconnecting.
+[2025-04-09 11:34:49 DBG] Connection id "0HNBN51QVEGD4" stopped.
+[2025-04-09 11:34:49 DBG] Connection id "0HNBN51QVEGD4" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2025-04-09 17:02:42 INF] 🚀 Application is starting...
+[2025-04-09 17:02:42 DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+[2025-04-09 17:02:43 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-04-09 17:02:43 DBG] Creating DbConnection.
+[2025-04-09 17:02:43 DBG] Created DbConnection. (6ms).
+[2025-04-09 17:02:43 DBG] Migrating using database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Creating DbConnection.
+[2025-04-09 17:02:43 DBG] Created DbConnection. (5ms).
+[2025-04-09 17:02:43 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Disposed connection to database '' on server '127.0.0.1' (5ms).
+[2025-04-09 17:02:43 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-04-09 17:02:43 DBG] Created DbCommand for 'ExecuteScalar' (6ms).
+[2025-04-09 17:02:43 DBG] Initialized DbCommand for 'ExecuteScalar' (31ms).
+[2025-04-09 17:02:43 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 17:02:43 INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 17:02:43 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (5ms).
+[2025-04-09 17:02:43 DBG] Creating DbConnection.
+[2025-04-09 17:02:43 DBG] Created DbConnection. (1ms).
+[2025-04-09 17:02:43 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Disposed connection to database '' on server '127.0.0.1' (1ms).
+[2025-04-09 17:02:43 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-04-09 17:02:43 DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+[2025-04-09 17:02:43 DBG] Initialized DbCommand for 'ExecuteScalar' (2ms).
+[2025-04-09 17:02:43 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 17:02:43 INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 17:02:43 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-04-09 17:02:43 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 17:02:43 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 17:02:43 DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+[2025-04-09 17:02:43 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-04-09 17:02:43 INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-04-09 17:02:43 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 3ms reading results.
+[2025-04-09 17:02:43 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 17:02:43 INF] No migrations were applied. The database is already up to date.
+[2025-04-09 17:02:43 INF] ✅ Database migrated successfully.
+[2025-04-09 17:02:43 DBG] 'ApplicationDbContext' disposed.
+[2025-04-09 17:02:43 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 17:02:43 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-04-09 17:02:43 DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2025-04-09 17:02:43 DBG] Hosting starting
+[2025-04-09 17:02:43 INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-09 17:02:43 DBG] Reading data from file 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys\key-b0dc3220-157c-404c-96c0-8a3a78b4d612.xml'.
+[2025-04-09 17:02:43 DBG] Found key {b0dc3220-157c-404c-96c0-8a3a78b4d612}.
+[2025-04-09 17:02:44 DBG] Considering key {b0dc3220-157c-404c-96c0-8a3a78b4d612} with expiration date 2025-04-27 08:33:18Z as default key.
+[2025-04-09 17:02:44 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-04-09 17:02:44 DBG] Decrypting secret element using Windows DPAPI.
+[2025-04-09 17:02:44 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-04-09 17:02:44 DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2025-04-09 17:02:44 DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2025-04-09 17:02:44 DBG] Using key {b0dc3220-157c-404c-96c0-8a3a78b4d612} as the default key.
+[2025-04-09 17:02:44 DBG] Key ring with default key {b0dc3220-157c-404c-96c0-8a3a78b4d612} was loaded during application startup.
+[2025-04-09 17:02:44 INF] Now listening on: http://localhost:5215
+[2025-04-09 17:02:44 DBG] Loaded hosting startup assembly middleware_demo
+[2025-04-09 17:02:44 INF] Application started. Press Ctrl+C to shut down.
+[2025-04-09 17:02:44 INF] Hosting environment: Development
+[2025-04-09 17:02:44 INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+[2025-04-09 17:02:44 DBG] Hosting started
+[2025-04-09 17:02:49 INF] Application is shutting down...
+[2025-04-09 17:02:49 DBG] Hosting stopping
+[2025-04-09 17:02:49 DBG] Hosting stopped
+[2025-04-09 18:02:41 INF] 🚀 Application is starting...
+[2025-04-09 18:02:42 DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+[2025-04-09 18:02:42 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-04-09 18:02:42 DBG] Creating DbConnection.
+[2025-04-09 18:02:42 DBG] Created DbConnection. (4ms).
+[2025-04-09 18:02:42 DBG] Migrating using database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:42 DBG] Creating DbConnection.
+[2025-04-09 18:02:42 DBG] Created DbConnection. (2ms).
+[2025-04-09 18:02:42 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-04-09 18:02:42 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-04-09 18:02:42 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-04-09 18:02:42 DBG] Disposed connection to database '' on server '127.0.0.1' (9ms).
+[2025-04-09 18:02:42 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-04-09 18:02:42 DBG] Created DbCommand for 'ExecuteScalar' (9ms).
+[2025-04-09 18:02:42 DBG] Initialized DbCommand for 'ExecuteScalar' (19ms).
+[2025-04-09 18:02:42 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:42 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:42 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 18:02:42 INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 18:02:42 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (2ms).
+[2025-04-09 18:02:43 DBG] Creating DbConnection.
+[2025-04-09 18:02:43 DBG] Created DbConnection. (1ms).
+[2025-04-09 18:02:43 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] Disposed connection to database '' on server '127.0.0.1' (1ms).
+[2025-04-09 18:02:43 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-04-09 18:02:43 DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+[2025-04-09 18:02:43 DBG] Initialized DbCommand for 'ExecuteScalar' (2ms).
+[2025-04-09 18:02:43 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 18:02:43 INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-04-09 18:02:43 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-04-09 18:02:43 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-04-09 18:02:43 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-04-09 18:02:43 DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+[2025-04-09 18:02:43 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-04-09 18:02:43 INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-04-09 18:02:43 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 2ms reading results.
+[2025-04-09 18:02:43 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-04-09 18:02:43 INF] No migrations were applied. The database is already up to date.
+[2025-04-09 18:02:43 INF] ✅ Database migrated successfully.
+[2025-04-09 18:02:43 DBG] 'ApplicationDbContext' disposed.
+[2025-04-09 18:02:43 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-04-09 18:02:43 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-04-09 18:02:43 DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2025-04-09 18:02:43 DBG] Hosting starting
+[2025-04-09 18:02:43 INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-09 18:02:43 DBG] Reading data from file 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys\key-b0dc3220-157c-404c-96c0-8a3a78b4d612.xml'.
+[2025-04-09 18:02:43 DBG] Found key {b0dc3220-157c-404c-96c0-8a3a78b4d612}.
+[2025-04-09 18:02:43 DBG] Considering key {b0dc3220-157c-404c-96c0-8a3a78b4d612} with expiration date 2025-04-27 08:33:18Z as default key.
+[2025-04-09 18:02:43 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-04-09 18:02:43 DBG] Decrypting secret element using Windows DPAPI.
+[2025-04-09 18:02:43 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-04-09 18:02:43 DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2025-04-09 18:02:43 DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2025-04-09 18:02:43 DBG] Using key {b0dc3220-157c-404c-96c0-8a3a78b4d612} as the default key.
+[2025-04-09 18:02:43 DBG] Key ring with default key {b0dc3220-157c-404c-96c0-8a3a78b4d612} was loaded during application startup.
+[2025-04-09 18:02:43 INF] Now listening on: http://localhost:5215
+[2025-04-09 18:02:43 DBG] Loaded hosting startup assembly middleware_demo
+[2025-04-09 18:02:43 INF] Application started. Press Ctrl+C to shut down.
+[2025-04-09 18:02:43 INF] Hosting environment: Development
+[2025-04-09 18:02:43 INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+[2025-04-09 18:02:43 DBG] Hosting started
+[2025-04-09 18:03:01 INF] Application is shutting down...
+[2025-04-09 18:03:01 DBG] Hosting stopping
+[2025-04-09 18:03:02 DBG] Hosting stopped

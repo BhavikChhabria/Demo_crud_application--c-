@@ -1,0 +1,301 @@
+2025-03-18 13:33:37.287 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-18 13:33:37.396 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-18 13:33:37.400 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 13:33:37.402 +05:30 [INF] Hosting environment: Development
+2025-03-18 13:33:37.403 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-18 13:53:20.634 +05:30 [INF] Application is shutting down...
+2025-03-18 13:53:28.314 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-18 13:53:28.448 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-18 13:53:28.452 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 13:53:28.453 +05:30 [INF] Hosting environment: Development
+2025-03-18 13:53:28.454 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-18 13:53:32.342 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.html - null null
+2025-03-18 13:53:32.363 +05:30 [INF] Incoming Request : GET /swagger/index.html from ::1
+2025-03-18 13:53:32.493 +05:30 [INF] Response Status: 200
+2025-03-18 13:53:32.501 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.html - 200 null text/html;charset=utf-8 157.1411ms
+2025-03-18 13:53:32.519 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.js - null null
+2025-03-18 13:53:32.522 +05:30 [INF] Incoming Request : GET /swagger/index.js from ::1
+2025-03-18 13:53:32.525 +05:30 [INF] Response Status: 200
+2025-03-18 13:53:32.526 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.js - 200 null application/javascript;charset=utf-8 7.6469ms
+2025-03-18 13:53:32.668 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - null null
+2025-03-18 13:53:32.671 +05:30 [INF] Incoming Request : GET /swagger/v1/swagger.json from ::1
+2025-03-18 13:53:32.800 +05:30 [INF] Response Status: 200
+2025-03-18 13:53:32.801 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 133.7757ms
+2025-03-18 13:54:11.201 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 60
+2025-03-18 13:54:11.217 +05:30 [INF] CORS policy execution successful.
+2025-03-18 13:54:11.220 +05:30 [INF] Incoming Request : POST /api/auth/login from ::1
+2025-03-18 13:54:11.231 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 13:54:11.286 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 13:54:14.582 +05:30 [INF] Executed DbCommand (81ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-18 13:54:15.700 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+2025-03-18 13:54:15.824 +05:30 [INF] User logged in: {"Id":12,"FirstName":"naman","LastName":"advani","Email":"naman@gmail.com","LoginCount":3,"$type":"UserDTO"}
+2025-03-18 13:54:15.922 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `Users` AS `u`
+2025-03-18 13:54:15.935 +05:30 [INF] User logged in: MiddlewareDemo.Models.UserDTO
+2025-03-18 13:54:15.956 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-18 13:54:16.043 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 4743.5522ms
+2025-03-18 13:54:16.048 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 13:54:16.052 +05:30 [INF] Response Status: 200
+2025-03-18 13:54:16.068 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 481 application/json; charset=utf-8 4867.1652ms
+2025-03-18 13:54:51.974 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-18 13:54:51.983 +05:30 [INF] Incoming Request : GET /api/auth/users from ::1
+2025-03-18 13:54:51.998 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-18 13:54:52.009 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-18 13:54:52.012 +05:30 [INF] Response Status: 401
+2025-03-18 13:54:52.016 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 401 0 null 42.0835ms
+2025-03-18 13:55:12.996 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-18 13:55:13.000 +05:30 [INF] Incoming Request : GET /api/auth/users from ::1
+2025-03-18 13:55:13.103 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-18 13:55:13.114 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 13:55:13.180 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+2025-03-18 13:55:13.193 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-18 13:55:13.211 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 90.9378ms
+2025-03-18 13:55:13.216 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-18 13:55:13.220 +05:30 [INF] Response Status: 200
+2025-03-18 13:55:13.223 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 1022 application/json; charset=utf-8 227.0128ms
+2025-03-18 13:56:42.152 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/register - application/json-patch+json 141
+2025-03-18 13:56:42.155 +05:30 [INF] CORS policy execution successful.
+2025-03-18 13:56:42.159 +05:30 [INF] Incoming Request : POST /api/auth/register from ::1
+2025-03-18 13:56:42.170 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-18 13:56:42.182 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiddlewareDemo.Models.RegisterUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 13:56:42.218 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-18 13:56:42.227 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Register (middleware_demo) in 40.0126ms
+2025-03-18 13:56:42.232 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-18 13:56:42.235 +05:30 [INF] Response Status: 400
+2025-03-18 13:56:42.238 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/register - 400 33 application/json; charset=utf-8 86.2594ms
+2025-03-18 13:56:50.369 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/register - application/json-patch+json 142
+2025-03-18 13:56:50.375 +05:30 [INF] CORS policy execution successful.
+2025-03-18 13:56:50.379 +05:30 [INF] Incoming Request : POST /api/auth/register from ::1
+2025-03-18 13:56:50.385 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-18 13:56:50.388 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiddlewareDemo.Models.RegisterUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 13:56:50.401 +05:30 [WRN] Registration failed: Weak password! Password must be at least 8 characters long, contain at least 1 uppercase, 1 lowercase, 1 number, and 1 special character.
+2025-03-18 13:56:50.405 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-18 13:56:50.409 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Register (middleware_demo) in 17.719ms
+2025-03-18 13:56:50.412 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-18 13:56:50.415 +05:30 [INF] Response Status: 400
+2025-03-18 13:56:50.418 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/register - 400 149 application/json; charset=utf-8 48.4092ms
+2025-03-18 13:56:59.785 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/register - application/json-patch+json 142
+2025-03-18 13:56:59.790 +05:30 [INF] CORS policy execution successful.
+2025-03-18 13:56:59.793 +05:30 [INF] Incoming Request : POST /api/auth/register from ::1
+2025-03-18 13:56:59.820 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-18 13:56:59.886 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiddlewareDemo.Models.RegisterUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 13:57:00.101 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Users` AS `u`
+    WHERE `u`.`Email` = @__userModel_Email_0)
+2025-03-18 13:57:00.114 +05:30 [WRN] Registration failed: Password and Confirm Password do not match!
+2025-03-18 13:57:00.118 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-18 13:57:00.124 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Register (middleware_demo) in 203.1793ms
+2025-03-18 13:57:00.129 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-18 13:57:00.132 +05:30 [INF] Response Status: 400
+2025-03-18 13:57:00.135 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/register - 400 55 application/json; charset=utf-8 350.3331ms
+2025-03-18 13:57:11.773 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/register - application/json-patch+json 142
+2025-03-18 13:57:11.778 +05:30 [INF] CORS policy execution successful.
+2025-03-18 13:57:11.794 +05:30 [INF] Incoming Request : POST /api/auth/register from ::1
+2025-03-18 13:57:11.802 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-18 13:57:11.808 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiddlewareDemo.Models.RegisterUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 13:57:11.826 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Users` AS `u`
+    WHERE `u`.`Email` = @__userModel_Email_0)
+2025-03-18 13:57:12.542 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`Email`, `FirstName`, `LastName`, `LoginCount`, `PasswordHash`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2025-03-18 13:57:12.604 +05:30 [INF] New user registered: {"Id":13,"FirstName":"yaksh","LastName":"raval","Email":"yaksh@gmail.com","LoginCount":0,"$type":"UserDTO"}
+2025-03-18 13:57:12.616 +05:30 [INF] User registered: MiddlewareDemo.Models.UserDTO
+2025-03-18 13:57:12.620 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-18 13:57:12.627 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Register (middleware_demo) in 812.1954ms
+2025-03-18 13:57:12.631 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Register (middleware_demo)'
+2025-03-18 13:57:12.635 +05:30 [INF] Response Status: 200
+2025-03-18 13:57:12.638 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/register - 200 156 application/json; charset=utf-8 864.0056ms
+2025-03-18 15:25:04.994 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-18 15:25:05.000 +05:30 [INF] Incoming Request : GET /api/auth/users from ::1
+2025-03-18 15:25:05.012 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:55:05'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-18 15:25:05.051 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:55:05'.
+2025-03-18 15:25:05.058 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-18 15:25:05.064 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-18 15:25:05.066 +05:30 [INF] Response Status: 401
+2025-03-18 15:25:05.069 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 401 0 null 75.0371ms
+2025-03-18 15:25:46.570 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-18 15:25:46.577 +05:30 [INF] Incoming Request : GET /api/auth/users from ::1
+2025-03-18 15:25:46.582 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:55:46'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-18 15:25:46.589 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:55:46'.
+2025-03-18 15:25:46.592 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-18 15:25:46.594 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-18 15:25:46.598 +05:30 [INF] Response Status: 401
+2025-03-18 15:25:46.600 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 401 0 null 29.5797ms
+2025-03-18 15:26:17.897 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 60
+2025-03-18 15:26:17.903 +05:30 [INF] CORS policy execution successful.
+2025-03-18 15:26:17.913 +05:30 [INF] Incoming Request : POST /api/auth/login from ::1
+2025-03-18 15:26:17.918 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:56:17'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-18 15:26:17.926 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:56:17'.
+2025-03-18 15:26:17.929 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 15:26:17.931 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 15:26:17.990 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-18 15:26:18.343 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+2025-03-18 15:26:18.348 +05:30 [INF] User logged in: {"Id":12,"FirstName":"naman","LastName":"advani","Email":"naman@gmail.com","LoginCount":4,"$type":"UserDTO"}
+2025-03-18 15:26:18.363 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `Users` AS `u`
+2025-03-18 15:26:18.369 +05:30 [INF] User logged in: MiddlewareDemo.Models.UserDTO
+2025-03-18 15:26:18.374 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-18 15:26:18.379 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 444.9623ms
+2025-03-18 15:26:18.382 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 15:26:18.386 +05:30 [INF] Response Status: 200
+2025-03-18 15:26:18.389 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 481 application/json; charset=utf-8 491.2745ms
+2025-03-18 15:26:56.893 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 59
+2025-03-18 15:26:56.897 +05:30 [INF] CORS policy execution successful.
+2025-03-18 15:26:56.899 +05:30 [INF] Incoming Request : POST /api/auth/login from ::1
+2025-03-18 15:26:56.904 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:56:56'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-18 15:26:56.912 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:56:56'.
+2025-03-18 15:26:56.914 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 15:26:56.917 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 15:26:56.923 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-18 15:26:56.929 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 6.9091ms
+2025-03-18 15:26:56.933 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 15:26:56.936 +05:30 [INF] Response Status: 400
+2025-03-18 15:26:56.939 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 400 31 application/json; charset=utf-8 45.6645ms
+2025-03-18 15:27:07.136 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 59
+2025-03-18 15:27:07.141 +05:30 [INF] CORS policy execution successful.
+2025-03-18 15:27:07.144 +05:30 [INF] Incoming Request : POST /api/auth/login from ::1
+2025-03-18 15:27:07.148 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:57:07'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-18 15:27:07.157 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:57:07'.
+2025-03-18 15:27:07.159 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 15:27:07.162 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 15:27:07.170 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-18 15:27:07.505 +05:30 [WRN] Login failed: Invalid credentials!
+2025-03-18 15:27:07.507 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-18 15:27:07.510 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 345.1195ms
+2025-03-18 15:27:07.514 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 15:27:07.518 +05:30 [INF] Response Status: 400
+2025-03-18 15:27:07.519 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 400 32 application/json; charset=utf-8 383.8563ms
+2025-03-18 15:27:20.980 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 58
+2025-03-18 15:27:20.984 +05:30 [INF] CORS policy execution successful.
+2025-03-18 15:27:20.987 +05:30 [INF] Incoming Request : POST /api/auth/login from ::1
+2025-03-18 15:27:20.992 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:57:20'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-18 15:27:21.000 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:57:20'.
+2025-03-18 15:27:21.005 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 15:27:21.008 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 15:27:21.019 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-18 15:27:21.327 +05:30 [WRN] Login failed: Invalid credentials!
+2025-03-18 15:27:21.330 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-18 15:27:21.332 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 318.4244ms
+2025-03-18 15:27:21.336 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 15:27:21.339 +05:30 [INF] Response Status: 400
+2025-03-18 15:27:21.341 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 400 32 application/json; charset=utf-8 360.8349ms
+2025-03-18 15:27:54.353 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json-patch+json 60
+2025-03-18 15:27:54.360 +05:30 [INF] CORS policy execution successful.
+2025-03-18 15:27:54.362 +05:30 [INF] Incoming Request : POST /api/auth/login from ::1
+2025-03-18 15:27:54.400 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:57:54'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-18 15:27:54.429 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2025 09:24:15', Current time (UTC): '18-03-2025 09:57:54'.
+2025-03-18 15:27:54.432 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 15:27:54.434 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiddlewareDemo.Models.LoginUserModel) on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 15:27:54.449 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__userModel_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__userModel_Email_0
+LIMIT 1
+2025-03-18 15:27:54.809 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Users` SET `LoginCount` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+2025-03-18 15:27:54.817 +05:30 [INF] User logged in: {"Id":13,"FirstName":"yaksh","LastName":"raval","Email":"yaksh@gmail.com","LoginCount":1,"$type":"UserDTO"}
+2025-03-18 15:27:54.829 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `Users` AS `u`
+2025-03-18 15:27:54.834 +05:30 [INF] User logged in: MiddlewareDemo.Models.UserDTO
+2025-03-18 15:27:54.836 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-18 15:27:54.841 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.Login (middleware_demo) in 397.6177ms
+2025-03-18 15:27:54.844 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.Login (middleware_demo)'
+2025-03-18 15:27:54.847 +05:30 [INF] Response Status: 200
+2025-03-18 15:27:54.850 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 479 application/json; charset=utf-8 497.2669ms
+2025-03-18 15:28:18.532 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/users - null null
+2025-03-18 15:28:18.537 +05:30 [INF] Incoming Request : GET /api/auth/users from ::1
+2025-03-18 15:28:18.543 +05:30 [INF] Executing endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-18 15:28:18.547 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller MiddlewareDemo.Controllers.AuthController (middleware_demo).
+2025-03-18 15:28:18.559 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`FirstName`, `u`.`LastName`, `u`.`LoginCount`, `u`.`PasswordHash`
+FROM `Users` AS `u`
+2025-03-18 15:28:18.564 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.List`1[[MiddlewareDemo.Models.UserDTO, middleware_demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-18 15:28:18.568 +05:30 [INF] Executed action MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo) in 13.2057ms
+2025-03-18 15:28:18.570 +05:30 [INF] Executed endpoint 'MiddlewareDemo.Controllers.AuthController.GetAllUsers (middleware_demo)'
+2025-03-18 15:28:18.572 +05:30 [INF] Response Status: 200
+2025-03-18 15:28:18.574 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/users - 200 1112 application/json; charset=utf-8 41.6266ms
+2025-03-18 16:45:46.478 +05:30 [INF] Application is shutting down...
+2025-03-18 17:04:18.527 +05:30 [INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-18 17:04:18.676 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-18 17:04:18.680 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 17:04:18.682 +05:30 [INF] Hosting environment: Development
+2025-03-18 17:04:18.684 +05:30 [INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+2025-03-18 17:04:20.781 +05:30 [INF] Application is shutting down...
