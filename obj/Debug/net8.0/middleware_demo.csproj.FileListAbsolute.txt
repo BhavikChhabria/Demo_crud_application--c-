@@ -145,3 +145,4 @@ C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_de
 C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\obj\Debug\net8.0\ref\middleware_demo.dll
 C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo\obj\Debug\net8.0\middleware_demo.sourcelink.json
