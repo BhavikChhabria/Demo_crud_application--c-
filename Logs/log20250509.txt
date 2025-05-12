@@ -1,0 +1,116 @@
+[2025-05-09 11:20:51 INF]  Application is starting...
+[2025-05-09 11:20:52 DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+[2025-05-09 11:20:53 DBG] Entity Framework Core 8.0.12 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.41-mysql 
+[2025-05-09 11:20:53 DBG] Creating DbConnection.
+[2025-05-09 11:20:53 DBG] Created DbConnection. (5ms).
+[2025-05-09 11:20:53 DBG] Migrating using database 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Creating DbConnection.
+[2025-05-09 11:20:53 DBG] Created DbConnection. (2ms).
+[2025-05-09 11:20:53 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Disposed connection to database '' on server '127.0.0.1' (4ms).
+[2025-05-09 11:20:53 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-05-09 11:20:53 DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+[2025-05-09 11:20:53 DBG] Initialized DbCommand for 'ExecuteScalar' (11ms).
+[2025-05-09 11:20:53 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-05-09 11:20:53 INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-05-09 11:20:53 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (3ms).
+[2025-05-09 11:20:53 DBG] Creating DbConnection.
+[2025-05-09 11:20:53 DBG] Created DbConnection. (0ms).
+[2025-05-09 11:20:53 DBG] Opening connection to database '' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Opened connection to database '' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Disposing connection to database '' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Disposed connection to database '' on server '127.0.0.1' (0ms).
+[2025-05-09 11:20:53 DBG] Creating DbCommand for 'ExecuteScalar'.
+[2025-05-09 11:20:53 DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+[2025-05-09 11:20:53 DBG] Initialized DbCommand for 'ExecuteScalar' (2ms).
+[2025-05-09 11:20:53 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-05-09 11:20:53 INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='middlewareupdate' AND TABLE_NAME='__EFMigrationsHistory';
+[2025-05-09 11:20:53 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (0ms).
+[2025-05-09 11:20:53 DBG] Opening connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Opened connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Creating DbCommand for 'ExecuteReader'.
+[2025-05-09 11:20:53 DBG] Created DbCommand for 'ExecuteReader' (0ms).
+[2025-05-09 11:20:53 DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+[2025-05-09 11:20:53 DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-05-09 11:20:53 INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+[2025-05-09 11:20:53 DBG] Closing data reader to 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] A data reader for 'middlewareupdate' on server '127.0.0.1' is being disposed after spending 4ms reading results.
+[2025-05-09 11:20:53 DBG] Closing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Closed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-05-09 11:20:53 INF] No migrations were applied. The database is already up to date.
+[2025-05-09 11:20:53 INF] ✅ Database migrated successfully.
+[2025-05-09 11:20:53 DBG] 'ApplicationDbContext' disposed.
+[2025-05-09 11:20:53 DBG] Disposing connection to database 'middlewareupdate' on server '127.0.0.1'.
+[2025-05-09 11:20:53 DBG] Disposed connection to database 'middlewareupdate' on server '127.0.0.1' (1ms).
+[2025-05-09 11:20:53 DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2025-05-09 11:20:53 DBG] Hosting starting
+[2025-05-09 11:20:53 INF] User profile is available. Using 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-05-09 11:20:53 DBG] Reading data from file 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys\key-110e32e4-9e28-426d-959f-04eec2d1214c.xml'.
+[2025-05-09 11:20:53 DBG] Reading data from file 'C:\Users\163125\AppData\Local\ASP.NET\DataProtection-Keys\key-b0dc3220-157c-404c-96c0-8a3a78b4d612.xml'.
+[2025-05-09 11:20:53 DBG] Found key {110e32e4-9e28-426d-959f-04eec2d1214c}.
+[2025-05-09 11:20:53 DBG] Found key {b0dc3220-157c-404c-96c0-8a3a78b4d612}.
+[2025-05-09 11:20:53 DBG] Considering key {110e32e4-9e28-426d-959f-04eec2d1214c} with expiration date 2025-07-27 12:39:52Z as default key.
+[2025-05-09 11:20:53 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-05-09 11:20:53 DBG] Decrypting secret element using Windows DPAPI.
+[2025-05-09 11:20:53 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2025-05-09 11:20:53 DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2025-05-09 11:20:53 DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2025-05-09 11:20:53 DBG] Using key {110e32e4-9e28-426d-959f-04eec2d1214c} as the default key.
+[2025-05-09 11:20:53 DBG] Key ring with default key {110e32e4-9e28-426d-959f-04eec2d1214c} was loaded during application startup.
+[2025-05-09 11:20:53 INF] Now listening on: http://localhost:5215
+[2025-05-09 11:20:53 DBG] Loaded hosting startup assembly middleware_demo
+[2025-05-09 11:20:53 INF] Application started. Press Ctrl+C to shut down.
+[2025-05-09 11:20:53 INF] Hosting environment: Development
+[2025-05-09 11:20:53 INF] Content root path: C:\Users\163125\OneDrive - Arrow Electronics, Inc\Documents\DEMO_M\middleware_demo
+[2025-05-09 11:20:53 DBG] Hosting started
+[2025-05-09 11:21:08 DBG] Connection id "0HNCENLVD42IP" accepted.
+[2025-05-09 11:21:08 DBG] Connection id "0HNCENLVD42IP" started.
+[2025-05-09 11:21:08 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.html - null null
+[2025-05-09 11:21:08 DBG] Wildcard detected, all requests with hosts will be allowed.
+[2025-05-09 11:21:08 DBG] No candidates found for the request path '/swagger/index.html'
+[2025-05-09 11:21:08 DBG] Request did not match any endpoints
+[2025-05-09 11:21:08 INF] ➡️ Incoming Request: GET /swagger/index.html from ::1
+[2025-05-09 11:21:08 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-05-09 11:21:08 INF]  Response Status: 200, Time Taken: 386 ms
+[2025-05-09 11:21:08 DBG] Connection id "0HNCENLVD42IP" completed keep alive response.
+[2025-05-09 11:21:08 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.html - 200 null text/html;charset=utf-8 463.3819ms
+[2025-05-09 11:21:09 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/index.js - null null
+[2025-05-09 11:21:09 DBG] No candidates found for the request path '/swagger/index.js'
+[2025-05-09 11:21:09 DBG] Request did not match any endpoints
+[2025-05-09 11:21:09 INF] ➡️ Incoming Request: GET /swagger/index.js from ::1
+[2025-05-09 11:21:09 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-05-09 11:21:09 INF]  Response Status: 200, Time Taken: 11 ms
+[2025-05-09 11:21:09 DBG] Connection id "0HNCENLVD42IP" completed keep alive response.
+[2025-05-09 11:21:09 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/index.js - 200 null application/javascript;charset=utf-8 34.3237ms
+[2025-05-09 11:21:09 INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - null null
+[2025-05-09 11:21:09 DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+[2025-05-09 11:21:09 DBG] Request did not match any endpoints
+[2025-05-09 11:21:09 INF] ➡️ Incoming Request: GET /swagger/v1/swagger.json from ::1
+[2025-05-09 11:21:09 DBG] AuthenticationScheme: Bearer was not authenticated.
+[2025-05-09 11:21:09 INF]  Response Status: 200, Time Taken: 261 ms
+[2025-05-09 11:21:09 DBG] Connection id "0HNCENLVD42IP" completed keep alive response.
+[2025-05-09 11:21:09 INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 273.5398ms
+[2025-05-09 11:23:20 DBG] Connection id "0HNCENLVD42IP" disconnecting.
+[2025-05-09 11:23:20 DBG] Connection id "0HNCENLVD42IP" stopped.
+[2025-05-09 11:23:20 DBG] Connection id "0HNCENLVD42IP" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2025-05-09 11:24:43 INF] Application is shutting down...
+[2025-05-09 11:24:43 DBG] Hosting stopping
+[2025-05-09 11:24:43 DBG] Hosting stopped

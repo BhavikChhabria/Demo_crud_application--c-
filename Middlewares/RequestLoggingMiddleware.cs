@@ -1,5 +1,4 @@
 namespace middleware_demo.Middlewares;
-
 using Microsoft.AspNetCore.Http;
 using Serilog;
 using System.Diagnostics;
@@ -17,7 +16,7 @@ public class RequestLoggingMiddleware
     public async Task Invoke(HttpContext context)
     {
         var stopwatch = Stopwatch.StartNew();
-
+        
         try
         {
             Log.Information("➡️ Incoming Request: {Method} {Path} from {IP}",

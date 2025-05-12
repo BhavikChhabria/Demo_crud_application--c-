@@ -104,26 +104,6 @@ namespace MiddlewareDemo.Controllers
             return BadRequest(new { Error = result });
         }
 
-        // ✅ Patch User (JSON Patch)
-        // [Authorize]
-        // [HttpPatch("user/{id}")]
-        // public async Task<IActionResult> PatchUser(int id, [FromBody] JsonPatchDocument<User> patchDoc)
-        // {
-        //     if (patchDoc == null || patchDoc.Operations.Count == 0)
-        //         return BadRequest(new { Error = "Invalid patch request!" });
-
-        //     var result = await _authService.PatchUser(id, patchDoc);
-        //     if (result.Contains("not found") || result.Contains("Invalid"))
-        //     {
-        //         _logger.LogWarning("Patch failed: ID {Id}, Error: {Error}", id, result);
-        //         return BadRequest(new { Error = result });
-        //     }
-
-        //     _logger.LogInformation("User patched: ID {Id}", id);
-        //     return Ok(new { Message = result });
-        // }
-
-
         [Authorize]
         [HttpPatch("user/{id}")]
         public async Task<IActionResult> PatchUser(int id, [FromBody] JsonPatchDocument<User> patchDoc)

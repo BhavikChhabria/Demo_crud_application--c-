@@ -32,7 +32,7 @@ builder.Logging.AddSerilog();
 
 try
 {
-    Log.Information("🚀 Application is starting...");
+    Log.Information(" Application is starting...");
 
     // ✅ Load Configuration
     var configuration = builder.Configuration ?? throw new InvalidOperationException("Configuration is missing.");
@@ -46,6 +46,10 @@ try
 
     // ✅ Register Services
     builder.Services.AddScoped<AuthService>();
+
+
+
+    builder.Services.AddSingleton<IMessageBusService, AzureServiceBusService>();
 
     // ✅ Configure JWT Authentication
     var secretKey = configuration["JwtSettings:Secret"]
@@ -172,6 +176,18 @@ static void EnsureDatabaseMigrated(WebApplication app)
     dbContext.Database.Migrate();
     Log.Information("✅ Database migrated successfully.");
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
